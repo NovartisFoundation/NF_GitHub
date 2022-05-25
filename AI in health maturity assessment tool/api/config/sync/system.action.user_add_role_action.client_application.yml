@@ -1,0 +1,14 @@
+uuid: e2ad6446-1d6d-437f-84fe-dc74006f16fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_application
+  module:
+    - user
+id: user_add_role_action.client_application
+label: 'Add the Client Application role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: client_application

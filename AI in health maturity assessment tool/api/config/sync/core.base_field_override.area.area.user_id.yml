@@ -1,0 +1,20 @@
+uuid: 237126bb-570d-43dc-aaf6-df5f03d9314f
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: area.area.user_id
+field_name: user_id
+entity_type: area
+bundle: area
+label: 'Authored by'
+description: 'The user ID of author of the Area entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

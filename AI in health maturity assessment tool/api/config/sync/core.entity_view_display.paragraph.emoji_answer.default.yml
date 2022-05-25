@@ -1,0 +1,49 @@
+uuid: 1ef3b75f-1180-471b-bbf3-82db64666e97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.emoji_answer.field_answer_score
+    - field.field.paragraph.emoji_answer.field_answer_title
+    - field.field.paragraph.emoji_answer.field_answer_tooltip
+    - field.field.paragraph.emoji_answer.field_emoji_answer_visual
+    - paragraphs.paragraphs_type.emoji_answer
+id: paragraph.emoji_answer.default
+targetEntityType: paragraph
+bundle: emoji_answer
+mode: default
+content:
+  field_answer_score:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_answer_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_answer_tooltip:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_emoji_answer_visual:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 321254a9-ebd7-426b-96a0-1784cd60a2c1
+langcode: en
+status: true
+dependencies: {  }
+id: image_question
+label: 'Image Question'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

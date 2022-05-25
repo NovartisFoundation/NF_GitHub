@@ -1,0 +1,22 @@
+uuid: e948106c-7f1a-47b5-bdca-421bc910df1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_answer
+id: paragraph.image_answer.status
+field_name: status
+entity_type: paragraph
+bundle: image_answer
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

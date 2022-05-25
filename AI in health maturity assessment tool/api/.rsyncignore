@@ -1,0 +1,6 @@
+.rsyncignore
+.env
+/web/sites/*/files/
+/web/sites/services.yml
+/web/sites/default/settings.local.php
+/web/sites/default/settings.php

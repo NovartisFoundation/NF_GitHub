@@ -1,0 +1,20 @@
+uuid: ea8ff0fb-baba-413c-bc7c-aaed02b2db00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.area.field_area_slug
+  module:
+    - novartis_quiz
+id: area.area.field_area_slug
+field_name: field_area_slug
+entity_type: area
+bundle: area
+label: Slug
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: 51b268f1-3885-479b-8bac-1e7cb38b9e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.emoji_question.field_question_answers
+    - field.field.paragraph.emoji_question.field_question_theme
+    - field.field.paragraph.emoji_question.field_question_title
+    - paragraphs.paragraphs_type.emoji_question
+  module:
+    - paragraphs
+id: paragraph.emoji_question.default
+targetEntityType: paragraph
+bundle: emoji_question
+mode: default
+content:
+  field_question_answers:
+    type: entity_reference_paragraphs
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_question_theme:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_question_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  translation:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

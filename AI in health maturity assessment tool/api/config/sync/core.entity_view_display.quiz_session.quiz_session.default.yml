@@ -1,0 +1,67 @@
+uuid: 16e49c92-f0cd-405e-8fd0-ca39b4ab6af6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_session.quiz_session.field_quiz_session_area_results
+    - field.field.quiz_session.quiz_session.field_quiz_session_country
+    - field.field.quiz_session.quiz_session.field_quiz_session_group
+    - field.field.quiz_session.quiz_session.field_quiz_session_role
+    - field.field.quiz_session.quiz_session.field_quiz_session_token
+  module:
+    - country
+    - novartis_quiz
+id: quiz_session.quiz_session.default
+targetEntityType: quiz_session
+bundle: quiz_session
+mode: default
+content:
+  field_quiz_session_area_results:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_quiz_session_country:
+    weight: -3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: country_default
+    region: content
+  field_quiz_session_group:
+    weight: -2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_quiz_session_role:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_quiz_session_token:
+    weight: -1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

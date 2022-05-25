@@ -1,0 +1,17 @@
+uuid: c7ab4bc5-694d-4212-a731-c3bfb3910890
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - novartis_quiz
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: area.area
+target_entity_type_id: area
+target_bundle: area
+default_langcode: site_default
+language_alterable: true

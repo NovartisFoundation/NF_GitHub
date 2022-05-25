@@ -1,0 +1,43 @@
+uuid: 56c6b0a9-bc4b-4efb-ac92-abe4dbc70bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_question_answers
+    - paragraphs.paragraphs_type.emoji_answer
+    - paragraphs.paragraphs_type.emoji_question
+  module:
+    - entity_reference_revisions
+id: paragraph.emoji_question.field_question_answers
+field_name: field_question_answers
+entity_type: paragraph
+bundle: emoji_question
+label: Answers
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      emoji_answer: emoji_answer
+    target_bundles_drag_drop:
+      emoji_answer:
+        enabled: true
+        weight: 7
+      emoji_question:
+        weight: 8
+        enabled: false
+      image_answer:
+        weight: 6
+        enabled: false
+      image_question:
+        weight: 9
+        enabled: false
+      pillar:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

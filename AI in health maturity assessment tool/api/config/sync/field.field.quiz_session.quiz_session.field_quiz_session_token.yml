@@ -1,0 +1,20 @@
+uuid: 6caa9bb9-2ed5-48d0-ace1-921c718cd95f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_session.field_quiz_session_token
+  module:
+    - novartis_quiz
+id: quiz_session.quiz_session.field_quiz_session_token
+field_name: field_quiz_session_token
+entity_type: quiz_session
+bundle: quiz_session
+label: Token
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

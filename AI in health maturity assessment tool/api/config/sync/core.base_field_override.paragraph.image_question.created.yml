@@ -1,0 +1,18 @@
+uuid: ac4cbf84-4994-4099-88d6-8599291d7488
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_question
+id: paragraph.image_question.created
+field_name: created
+entity_type: paragraph
+bundle: image_question
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,19 @@
+uuid: de571cbc-0159-45d3-b490-73f0ca6be55a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer_title
+    - paragraphs.paragraphs_type.image_answer
+id: paragraph.image_answer.field_answer_title
+field_name: field_answer_title
+entity_type: paragraph
+bundle: image_answer
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

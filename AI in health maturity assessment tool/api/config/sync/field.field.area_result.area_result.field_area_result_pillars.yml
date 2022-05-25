@@ -1,0 +1,20 @@
+uuid: da44ba2e-df69-4be5-b3b0-1573de0442f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.area_result.field_area_result_pillars
+  module:
+    - novartis_quiz
+id: area_result.area_result.field_area_result_pillars
+field_name: field_area_result_pillars
+entity_type: area_result
+bundle: area_result
+label: 'Pillars results'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

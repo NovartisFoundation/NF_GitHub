@@ -1,0 +1,53 @@
+novartis_quiz.get_areas:
+  path: '/api/area'
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\AreaController::getAll'
+    _title: 'Get all areas'
+  methods: [ GET ]
+  requirements:
+    _permission: 'access content'
+
+novartis_quiz.initialize_session:
+  path: '/api/session'
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\SessionController::initializeSession'
+    _title: 'Create a new quiz session'
+  methods: [ POST ]
+  requirements:
+    _permission: 'access content'
+
+novartis_quiz.add_result:
+  path: '/api/session/{token}/result'
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\SessionController::addResult'
+    _title: 'Add a result for the given session and area'
+  methods: [ POST ]
+  requirements:
+    _permission: 'access content'
+
+novartis_quiz.get_session:
+  path: '/api/session/{token}'
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\SessionController::getSession'
+    _title: 'Get a session by token'
+  methods: [ GET ]
+  requirements:
+    _permission: 'access content'
+
+novartis_quiz.dashboard_sessions:
+  path: '/api/dashboard/sessions'
+  methods: [ GET ]
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\DashboardController::getSessions'
+    _title: 'Get sessions'
+  requirements:
+    _role: 'administrator+authenticated'
+
+novartis_quiz.dashboard_stats:
+  path: '/api/dashboard/stats'
+  methods: [ GET ]
+  defaults:
+    _controller: '\Drupal\novartis_quiz\Controller\DashboardController::getStats'
+    _title: 'Get statistics'
+  requirements:
+    _role: 'administrator+authenticated'

@@ -1,0 +1,32 @@
+# Quiz session menu items definition
+entity.quiz_session.collection:
+  title: 'Quiz'
+  route_name: entity.quiz_session.collection
+  description: 'List Quiz session entities'
+  parent: system.admin
+  weight: -10
+
+# Area menu items definition
+entity.area.collection:
+  title: 'Area list'
+  route_name: entity.area.collection
+  description: 'List Area entities'
+  parent: entity.quiz_session.collection
+
+area.admin.structure.settings:
+  title: 'Area settings'
+  description: 'Configure Area entities'
+  route_name: area.settings
+  parent: system.admin_structure
+
+quiz_session.admin.structure.settings:
+  title: 'Quiz session settings'
+  description: 'Configure Quiz session entities'
+  route_name: quiz_session.settings
+  parent: system.admin_structure
+
+area_result.admin.structure.settings:
+  title: 'Area result settings'
+  description: 'Configure Area result entities'
+  route_name: area_result.settings
+  parent: system.admin_structure

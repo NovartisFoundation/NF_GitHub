@@ -1,0 +1,22 @@
+{#
+/**
+ * @file area_result.html.twig
+ * Default theme implementation to present Area result data.
+ *
+ * This template is used when viewing Area result pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_area_result()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('area_result') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

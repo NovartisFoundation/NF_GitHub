@@ -1,0 +1,19 @@
+uuid: 64aa7459-a69c-46a7-84df-65058df2e022
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer_tooltip
+    - paragraphs.paragraphs_type.emoji_answer
+id: paragraph.emoji_answer.field_answer_tooltip
+field_name: field_answer_tooltip
+entity_type: paragraph
+bundle: emoji_answer
+label: Tooltip
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

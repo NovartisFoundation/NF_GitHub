@@ -1,0 +1,10 @@
+uuid: 948c6e85-5ab3-4101-821e-3f3fc2ddf887
+langcode: en
+status: true
+dependencies: {  }
+id: emoji_question
+label: 'Emoji Question'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph for Emoji question type'
+behavior_plugins: {  }

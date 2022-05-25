@@ -1,0 +1,22 @@
+uuid: 2c169b05-3d02-4eed-8f8f-17ae322c37f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_session.field_quiz_session_country
+  module:
+    - country
+    - novartis_quiz
+id: quiz_session.quiz_session.field_quiz_session_country
+field_name: field_quiz_session_country
+entity_type: quiz_session
+bundle: quiz_session
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selectable_countries: {  }
+field_type: country

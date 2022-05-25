@@ -1,0 +1,19 @@
+uuid: dfdf102b-12f2-469b-ba8b-8b3cb43e8563
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: area_result.field_area_result_pillars
+field_name: field_area_result_pillars
+entity_type: area_result
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

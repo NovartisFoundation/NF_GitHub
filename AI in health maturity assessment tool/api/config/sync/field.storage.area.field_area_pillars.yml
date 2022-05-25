@@ -1,0 +1,21 @@
+uuid: 793973e3-b7fa-4bbd-8823-1d7c01360c23
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - novartis_quiz
+    - paragraphs
+id: area.field_area_pillars
+field_name: field_area_pillars
+entity_type: area
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

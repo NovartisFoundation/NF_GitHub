@@ -1,0 +1,63 @@
+# Area routing definition
+area.settings_tab:
+  route_name: area.settings
+  title: 'Settings'
+  base_route: area.settings
+
+entity.area.canonical:
+  route_name: entity.area.canonical
+  base_route: entity.area.canonical
+  title: 'View'
+
+entity.area.edit_form:
+  route_name: entity.area.edit_form
+  base_route: entity.area.canonical
+  title: 'Edit'
+
+entity.area.delete_form:
+  route_name:  entity.area.delete_form
+  base_route:  entity.area.canonical
+  title: Delete
+  weight: 10
+# Quiz session routing definition
+quiz_session.settings_tab:
+  route_name: quiz_session.settings
+  title: 'Settings'
+  base_route: quiz_session.settings
+
+entity.quiz_session.canonical:
+  route_name: entity.quiz_session.canonical
+  base_route: entity.quiz_session.canonical
+  title: 'View'
+
+entity.quiz_session.edit_form:
+  route_name: entity.quiz_session.edit_form
+  base_route: entity.quiz_session.canonical
+  title: 'Edit'
+
+entity.quiz_session.delete_form:
+  route_name:  entity.quiz_session.delete_form
+  base_route:  entity.quiz_session.canonical
+  title: Delete
+  weight: 10
+# Area result routing definition
+area_result.settings_tab:
+  route_name: area_result.settings
+  title: 'Settings'
+  base_route: area_result.settings
+
+entity.area_result.canonical:
+  route_name: entity.area_result.canonical
+  base_route: entity.area_result.canonical
+  title: 'View'
+
+entity.area_result.edit_form:
+  route_name: entity.area_result.edit_form
+  base_route: entity.area_result.canonical
+  title: 'Edit'
+
+entity.area_result.delete_form:
+  route_name:  entity.area_result.delete_form
+  base_route:  entity.area_result.canonical
+  title: Delete
+  weight: 10

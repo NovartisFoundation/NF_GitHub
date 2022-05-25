@@ -1,0 +1,51 @@
+uuid: 31472259-1b07-4c3e-8617-2d859538f790
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.area_result.area_result.field_area_result_area
+    - field.field.area_result.area_result.field_area_result_pillars
+    - field.field.area_result.area_result.field_area_result_score
+  module:
+    - novartis_quiz
+id: area_result.area_result.default
+targetEntityType: area_result
+bundle: area_result
+mode: default
+content:
+  field_area_result_area:
+    weight: -2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_area_result_pillars:
+    weight: -1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_area_result_score:
+    weight: -3
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

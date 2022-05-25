@@ -1,0 +1,5 @@
+ignored_config_entities:
+  - 'simple_oauth.settings:public_key'
+  - 'simple_oauth.settings:private_key'
+_core:
+  default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk

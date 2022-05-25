@@ -1,0 +1,10 @@
+uuid: abbbeece-e1f4-46be-892b-8e104fedd9ef
+langcode: en
+status: true
+dependencies: {  }
+id: image_answer
+label: 'Image Answer'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

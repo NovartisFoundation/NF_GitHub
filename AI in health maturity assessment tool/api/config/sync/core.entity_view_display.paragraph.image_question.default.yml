@@ -1,0 +1,42 @@
+uuid: 96d3a69c-0fe4-4d6c-ba78-4754b406790d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_question.field_question_answers
+    - field.field.paragraph.image_question.field_question_theme
+    - field.field.paragraph.image_question.field_question_title
+    - paragraphs.paragraphs_type.image_question
+  module:
+    - entity_reference_revisions
+id: paragraph.image_question.default
+targetEntityType: paragraph
+bundle: image_question
+mode: default
+content:
+  field_question_answers:
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_question_theme:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_question_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

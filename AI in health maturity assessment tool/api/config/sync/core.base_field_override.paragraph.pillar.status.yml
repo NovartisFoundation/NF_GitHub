@@ -1,0 +1,22 @@
+uuid: e680f861-27bb-4aba-bc32-4cce7f2f013a
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pillar
+id: paragraph.pillar.status
+field_name: status
+entity_type: paragraph
+bundle: pillar
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

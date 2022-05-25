@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  apache:
+    build:
+      context: ./.docker/apache
+    restart: always
+    ports:
+      - ${APP_PORT}:80
+    volumes:
+      - ./.docker/apache/vhosts:/etc/apache2/sites-enabled
+      - .:/app
+      - .logs:/var/www/logs
+    links:
+      - php
+    container_name: ${APP_NAME}_apache
+
+  php:
+    build:
+      context: ./.docker/php
+    environment:
+      XDEBUG_CONFIG: remote_host=host.docker.internal
+    working_dir: /app/api
+    volumes:
+      - .:/app
+      - .docker/php/dev.ini:/usr/local/etc/php/conf.d/dev.ini
+      - .logs/php:/var/www/logs
+    depends_on:
+      - database
+    container_name: ${APP_NAME}_php
+
+  database:
+    image: mariadb:${DATABASE_VERSION}
+    environment:
+      - "MYSQL_ROOT_PASSWORD=lamp"
+      - "MYSQL_DATABASE=lamp"
+    volumes:
+      - database-data:/var/lib/mysql
+    ports:
+      - ${DATABASE_PORT}:3306
+    container_name: ${APP_NAME}_database
+
+volumes:
+  database-data:

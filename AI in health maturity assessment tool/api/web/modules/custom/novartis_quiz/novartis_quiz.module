@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Contains novartis_quiz.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function novartis_quiz_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the novartis_quiz module.
+    case 'help.page.novartis_quiz':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides Area and Question entities and related API endpoints') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function novartis_quiz_icon_allowed_values() {
+  return [
+    'data' => t('Data', [], ['context' => 'novartis_quiz']),
+  ];
+}

@@ -1,0 +1,22 @@
+uuid: 1e9cc470-2ce0-48a6-aedd-d1a88b19217d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.emoji_question
+id: paragraph.emoji_question.status
+field_name: status
+entity_type: paragraph
+bundle: emoji_question
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,77 @@
+{
+  "title": "Novartis Foundation | Avaliação",
+  "description": "",
+  "url": "https://yourdomain.com",
+
+  "areas": {
+    "peopleWorkforce": "Pessoas e força de trabalho",
+    "dataTechnology": "Dados e tecnologia",
+    "governanceRegulatory": "Governance & regulatory",
+    "designProcesses": "Design e processos",
+    "partnershipStakeholders": "Parcerias e intervenientes",
+    "businessModels": "Modelos de negócio"
+  },
+  "groups": {
+    "ministries": "Ministérios das Finanças, Educação, Saúde e Tecnologia",
+    "ingosCivilSocietyImplementers": "ONG Internacionais, sociedade civil e implementadores",
+    "privateCompaniesStartups": "Empresas privadas e “start-ups”",
+    "advocacyGroups": "Grupos de defesa",
+    "healthOrganizations": "Organizações de saúde"
+  },
+  "badge": {
+    "alt": "Avaliação Crachás",
+    "levels": {
+      "1": "Explorador",
+      "2": "Emergente",
+      "3": "Líder"
+    }
+  },
+  "badgesCollection": {
+    "label": "Crachás recolhidos :"
+  },
+  "buttonDownloadBadge": {
+    "label": "Transferir o meu crachá em .jpg"
+  },
+  "languageSelector": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Portuguese"
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "We are currently working on the website, stay tuned !"
+  },
+  "error": {
+    "default": {
+      "server": "An error {{statusCode}} occurred on server",
+      "client": "An error occurred on client"
+    },
+    "404": {
+      "title": "Página não encontrada (404)",
+      "description": "O URL solicitado não foi encontrado neste servidor.",
+      "button": "Voltar para a página inicial"
+    },
+    "500": {
+      "title": "Internal Server Error (500)",
+      "description": "An error occurred on server."
+    },
+    "IESupport": {
+      "title": "Navegador não suportado",
+      "description": "Parece que você está usando uma versão de navegador da web que não é compatível. Certifique-se de usar a versão mais recente de seu navegador ou tente usar outro navegador compatível para obter a experiência completa do site."
+    }
+  },
+  "formSelect": {
+    "noOptionsMessage": "Nenhuma opção"
+  },
+  "kidney": {
+    "defaultText": "Clique numa área para selecionar ou saber mais"
+  },
+  "shareByLink": {
+    "buttons": {
+      "copyLink": "Link de cópia",
+      "linkCopied": "Link copiado!"
+    }
+  },
+  "scrollTop": "Role para cima"
+}

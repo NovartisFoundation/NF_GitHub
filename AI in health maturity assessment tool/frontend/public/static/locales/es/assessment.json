@@ -1,0 +1,145 @@
+{
+  "title": "Novartis Foundation | Evaluación",
+  "description": "",
+  "url": "https://yourdomain.com/es",
+
+  "currentArea": "Área actual",
+  "nextArea": "Área siguiente",
+  "messageBeforeExitAssessment": "¿Está seguro de que desea salir de la evaluación?",
+
+  "onboarding": {
+    "subtitle": "Usaremos tu nombre únicamente con el propósito de crear una mejor experiencia para ti. No conservaremos tu información personal para ningún otro propósito. Si tienes preguntas, por favor contacta <a href=\"mailto:privacy.switzerland@novartis.com\">“privacidad de datos”</a>.",
+    "title": "<strong>¡Bienvenido/a a la herramienta de evaluación de desarrollo en salud con IA!</strong><br><br>Esta herramienta digital de evaluación gratuita tiene el fin de ayudarle a los países a identificar áreas de inversión para sus recursos y así permitir el despliegue exitoso de soluciones de IA en salud para generar un impacto significante. <br><br>El objetivo final de la herramienta es que el potencial transformativo de esta tecnología se pueda realizar a nivel global, y que ningún país se quede atrás.",
+    "buttons": {
+      "start": "Vamos a empezar"
+    }
+  },
+
+  "start": {
+    "subtitle": "Inicio de evaluación",
+    "title": "Lo primero es lo primero: conocerse.",
+    "form": {
+      "name": {
+        "placeholder": "Su nombre completo"
+      },
+      "role": {
+        "placeholder": "Su función"
+      },
+      "country": {
+        "placeholder": "Seleccione su país *"
+      },
+      "stakeholderGroup": {
+        "placeholder": "Seleccione su grupo de parte interesada *"
+      }
+    },
+    "legal": "Toda esta información se utiliza para que su experiencia sea más agradable. Nunca utilizaremos esta información con fines comerciales o de marketing.",
+    "buttons": {
+      "selectArea": "Seleccione un área",
+      "selectAreaHelper": "* Es obligatorio continuar"
+    }
+  },
+
+  "selectionArea": {
+    "headertitle": "Muy bien, ¡vamos a continuar!",
+    "headertitleWithName": "Muy bien, <span>{{name}}</span>, ¡vamos a continuar!",
+    "start": {
+      "subtitle": "Inicio de evaluación",
+      "title": "¡Comencemos con!",
+      "titleWithName": "¡Comencemos con <span>{{name}}</span>!"
+    },
+    "progress": {
+      "subtitle": "Progreso de la evaluación",
+      "title": "¿Qué área desea evaluar a continuación?",
+      "text": "Elija un área para finalizar la evaluación."
+    },
+    "areas": {
+      "default": {
+        "title": {
+          "start": "Para iniciar la evaluación",
+          "progress": "Para continuar la evaluación"
+        },
+        "text": "Puede seleccionar una de las áreas del diagrama para obtener más información sobre ella y elegir comenzar donde desee. Debe completar las 6 áreas para finalizar la evaluación"
+      },
+      "peopleWorkforce": {
+        "text": "Personal y Empleados trata de capacitar a toda la población con herramientas digitales y de IA, dimensiones que a menudo se ignoran en una educación encofada por la tecnología tradicional.",
+        "duration": "Tiempo de realización del área: alrededor de 5 min."
+      },
+      "dataTechnology": {
+        "text": "Esta área se centra en la tecnología, la interoperabilidad, los algoritmos y los modelos. Incluye la ingestión de datos, el almacenamiento, el consumo, el uso compartido de la propiedad de los datos y la validación de datos. También incluye la precisión del algoritmo y del modelo, el entrenamiento y la habilidad de explicación, así como los estándares y la interoperabilidad.",
+        "duration": "Tiempo de realización del área: alrededor de 5 min."
+      },
+      "governanceRegulatory": {
+        "text": "Esta área se centra en las estructuras y reglamentaciones formales de gobernanza. Abarca el desarrollo de estrategias nacionales relevantes, costes claros para la implementación, validación clínica y científica, normativas de privacidad y seguridad, visión de innovación y políticas normativas clave.",
+        "duration": "Tiempo de realización del área: alrededor de 4 min."
+      },
+      "designProcesses": {
+        "text": "Esta área se centra en la integración de soluciones de IA en sistemas sanitarios y flujos de trabajo clínicos, métricas de rendimiento y uso de modelos, localización de soluciones y diseño con integración de lo humano.",
+        "duration": "Tiempo de realización del área: alrededor de 3 min."
+      },
+      "partnershipStakeholders": {
+        "text": "Esta área se centra en colaboraciones efectivas, iniciativas multisectoriales público-privadas, prototipos orientados a objetivos y concertados, así como en el correspondiente compromiso de las partes interesadas que va desde el apoyo político a alto nivel y el apoyo del sector hasta las relaciones con socios y pacientes locales.",
+        "duration": "Tiempo de realización del área: alrededor de 1 min."
+      },
+      "businessModels": {
+        "text": "Esta área se centra en fuentes de financiación, estructuras de incentivos, sostenibilidad financiera, modelos de precios y diferentes formas de monetización innovadora.",
+        "duration": "Tiempo de realización del área: alrededor de 2 min."
+      }
+    },
+    "saveProgress": "El progreso de su evaluación se guarda después de cada área. Puede encontrar su progreso en esta URL",
+    "buttons": {
+      "start": "Iniciar la evaluación",
+      "endAssessment": "Ver mis resultados"
+    }
+  },
+
+  "question": {
+    "title": "Bienvenida",
+    "titleWithName": "Bienvenida, <span>{{name}}</span>",
+    "subtitle": {
+      "emoji": "Seleccione una opción",
+      "image": "Seleccione el nivel que se aplica"
+    },
+    "buttons": {
+      "back": "Atrás",
+      "next": "Siguiente"
+    }
+  },
+
+  "badge": {
+    "badge1": {
+      "headertitle": "¡Enhorabuena! ¡Gran progreso!",
+      "headertitleWithName": "¡Enhorabuena, <span>{{name}}</span>! ¡Gran progreso!"
+    },
+    "badge2": {
+      "headertitle": "¡Enhorabuena! ¡Gran progreso!",
+      "headertitleWithName": "¡Enhorabuena, <span>{{name}}</span>! ¡Gran progreso!"
+    },
+    "badge3": {
+      "headertitle": "¡Enhorabuena! ¡Gran progreso!",
+      "headertitleWithName": "¡Enhorabuena, <span>{{name}}</span>! ¡Gran progreso!"
+    },
+    "badge4": {
+      "headertitle": "¡Enhorabuena! ¡Gran progreso!",
+      "headertitleWithName": "¡Enhorabuena, <span>{{name}}</span>! ¡Gran progreso!"
+    },
+    "badge5": {
+      "headertitle": "¡Enhorabuena! ¡Gran progreso!",
+      "headertitleWithName": "¡Enhorabuena, <span>{{name}}</span>! ¡Gran progreso!"
+    },
+    "badge6": {
+      "headertitle": "¡Felicidades, terminaste! Vea sus resultados.",
+      "headertitleWithName": "¡Felicidades, <span>{{name}}</span> terminaste! Vea sus resultados."
+    },
+    "subtitle": "Tu logro",
+    "title": "¡Ha completado {{areasCompleted}} de 6 áreas!",
+    "title_plural": "¡Ha completado {{areasCompleted}} de 6 áreas!",
+    "description": "Aquí está su puntuación para esta área: ",
+    "shareByLink": {
+      "label": "Si desea continuar más tarde, vuelva a este enlace."
+    },
+    "buttons": {
+      "next": "Elegir otra área",
+      "endAssessment": "Ver mis resultados"
+    }
+  }
+}

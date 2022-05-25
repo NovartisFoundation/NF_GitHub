@@ -1,0 +1,15 @@
+entity.area.add_form:
+  route_name: entity.area.add_form
+  title: 'Add Area'
+  appears_on:
+    - entity.area.collection
+entity.quiz_session.add_form:
+  route_name: entity.quiz_session.add_form
+  title: 'Add Quiz session'
+  appears_on:
+    - entity.quiz_session.collection
+entity.area_result.add_form:
+  route_name: entity.area_result.add_form
+  title: 'Add Area result'
+  appears_on:
+    - entity.area_result.collection

@@ -1,0 +1,10 @@
+uuid: 0addccbb-9adb-467a-abb4-d4c856980059
+langcode: en
+status: true
+dependencies: {  }
+id: emoji_answer
+label: 'Emoji Answer'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

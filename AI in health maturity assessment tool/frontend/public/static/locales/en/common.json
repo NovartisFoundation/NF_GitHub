@@ -1,0 +1,77 @@
+{
+  "title": "Novartis Foundation",
+  "description": "",
+  "url": "https://yourdomain.com",
+
+  "areas": {
+    "peopleWorkforce": "People & workforce",
+    "dataTechnology": "Data & technology",
+    "governanceRegulatory": "Government & regulatory",
+    "designProcesses": "Design & processes",
+    "partnershipStakeholders": "Partnerships & stakeholders",
+    "businessModels": "Business models"
+  },
+  "groups": {
+    "ministries": "Ministries of finance, education, health, and technology",
+    "ingosCivilSocietyImplementers": "INGOs, civil society, and implementers",
+    "privateCompaniesStartups": "Private companies and startups",
+    "advocacyGroups": "Advocacy groups",
+    "healthOrganizations": "Health organizations"
+  },
+  "badge": {
+    "alt": "Assessment Badge",
+    "levels": {
+      "1": "Exploring",
+      "2": "Emerging",
+      "3": "Leader"
+    }
+  },
+  "badgesCollection": {
+    "label": "Badges collected :"
+  },
+  "buttonDownloadBadge": {
+    "label": "Download my badge in .jpg"
+  },
+  "languageSelector": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Portuguese"
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "We are currently working on the website, stay tuned !"
+  },
+  "error": {
+    "default": {
+      "server": "An error {{statusCode}} occurred on server",
+      "client": "An error occurred on client"
+    },
+    "404": {
+      "title": "Page Not Found (404)",
+      "description": "The requested URL was not found on this server.",
+      "button": "Return to the homepage"
+    },
+    "500": {
+      "title": "Internal Server Error (500)",
+      "description": "An error occurred on server."
+    },
+    "IESupport": {
+      "title": "Browser not supported",
+      "description": "It's looks like you may be using a web browser version that we don't support. Make sure you're using the most recent version of your browser, or try using an other supported browser, to get the full website experience."
+    }
+  },
+  "formSelect": {
+    "noOptionsMessage": "No option"
+  },
+  "kidney": {
+    "defaultText": "Click on an area to select or learn more"
+  },
+  "shareByLink": {
+    "buttons": {
+      "copyLink": "Copy Link",
+      "linkCopied": "Link copied!"
+    }
+  },
+  "scrollTop": "Scroll to Top"
+}

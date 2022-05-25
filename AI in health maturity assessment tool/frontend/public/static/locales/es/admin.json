@@ -1,0 +1,77 @@
+{
+  "title": "Novartis Foundation | Admin",
+  "description": "",
+  "url": "https://yourdomain.com",
+
+  "downloadCSV": "Download as .XLS",
+
+  "dashboardOverview": {
+    "title": "Dashboard overview"
+  },
+
+  "intro": {
+    "start": "A total of",
+    "end": "people have taken the assessement so far",
+    "country": " in {{country}}"
+  },
+  "cards": {
+    "average": {
+      "title": "Average maturity level",
+      "hint": "Level out of 3"
+    },
+    "bestScore": {
+      "title": "Best score"
+    },
+    "worstScore": {
+      "title": "Worst score"
+    },
+    "completedAssessemnts": {
+      "title": "Finished assessments",
+      "description": "of respondants completed the whole assessment"
+    },
+    "uncompletedAssessemnts": {
+      "title": "Uncomplete assessments",
+      "description": "of respondants dropped off whitout completing the whole assessement"
+    },
+    "countries": {
+      "title": "Total of Countries",
+      "hint": "different countries",
+      "subtitle": "Top 5 country"
+    },
+    "typology": {
+      "title": "Respondant typology",
+      "labels": {
+        "ministries": "Ministries of health, finance, education and technology",
+        "ingosCivilSocietyImplementers": "INGos, civil society and implementors",
+        "privateCompaniesStartups": "Private companies, broadband connectivity providers, and startups",
+        "advocacyGroups": "Advocacy groups",
+        "healthOrganizations": "Health organizations (e.g. teaching hospitals, health centers, pharmacies)"
+      }
+    }
+  },
+  "averageArea": {
+    "title": "Area average maturity",
+    "hint": "Level out of 3"
+  },
+  "table": {
+    "headers": {
+      "group": "Stakeholder Group",
+      "country": "Country",
+      "role": "Role",
+      "date": "Date",
+      "P&W": "P&W",
+      "D&T": "D&T",
+      "G&R": "G&R",
+      "D&P": "D&P",
+      "P&S": "P&S",
+      "P&M": "P&M",
+      "total": "Total Area Score"
+    }
+  },
+  "session": {
+    "redirection": {
+      "title": "Your session expired",
+      "text": "You will be redirected."
+    }
+  }
+}

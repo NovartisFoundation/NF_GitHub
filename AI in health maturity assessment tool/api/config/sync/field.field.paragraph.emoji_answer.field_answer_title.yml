@@ -1,0 +1,19 @@
+uuid: 177b4a5d-f350-4eca-a316-6ed123862b47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer_title
+    - paragraphs.paragraphs_type.emoji_answer
+id: paragraph.emoji_answer.field_answer_title
+field_name: field_answer_title
+entity_type: paragraph
+bundle: emoji_answer
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: dfc76b5e-b6cf-4cfa-9f4d-60fa66ea5c97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_answer.field_answer_score
+    - field.field.paragraph.image_answer.field_answer_title
+    - field.field.paragraph.image_answer.field_answer_tooltip
+    - field.field.paragraph.image_answer.field_image_answer_visual
+    - paragraphs.paragraphs_type.image_answer
+  module:
+    - image
+id: paragraph.image_answer.default
+targetEntityType: paragraph
+bundle: image_answer
+mode: default
+content:
+  field_answer_score:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_answer_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_answer_tooltip:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image_answer_visual:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

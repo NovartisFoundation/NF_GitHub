@@ -1,0 +1,24 @@
+uuid: f4876058-eda8-4e1e-9f02-c2fabac85385
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.area_result.field_area_result_score
+  module:
+    - novartis_quiz
+id: area_result.area_result.field_area_result_score
+field_name: field_area_result_score
+entity_type: area_result
+bundle: area_result
+label: Score
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

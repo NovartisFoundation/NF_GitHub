@@ -1,0 +1,145 @@
+{
+  "title": "Novartis Foundation | Assessment",
+  "description": "",
+  "url": "https://yourdomain.com",
+
+  "currentArea": "Current area",
+  "nextArea": "Next area",
+  "messageBeforeExitAssessment": "Are you sure you want to quit the assessment?",
+
+  "onboarding": {
+    "subtitle": "We will use your name solely for the purpose of creating a friendly experience. We will not retain your personal information for any other purpose. If you have questions, please contact <a href=\"mailto:privacy.switzerland@novartis.com\">Data Privacy</a>.",
+    "title": "<strong>Welcome to the AI in health maturity assessment tool!</strong><br><br>This free digital assessment tool helps countries identify where to best invest resources to enable successful deployment of impactful AI solutions in health.<br><br>The ultimate goal is that the potential of this transformative technology can be realized everywhere, and no country is left behind.",
+    "buttons": {
+      "start": "Let's get going"
+    }
+  },
+
+  "start": {
+    "subtitle": "Assessment start",
+    "title": "First things first, let’s get acquainted.",
+    "form": {
+      "name": {
+        "placeholder": "Your full name"
+      },
+      "role": {
+        "placeholder": "Your role"
+      },
+      "country": {
+        "placeholder": "Select your country *"
+      },
+      "stakeholderGroup": {
+        "placeholder": "Select your Stakeholder Group *"
+      }
+    },
+    "legal": "All of this information is used to make your experience friendlier. We will never use this information for commercial or marketing purposes.",
+    "buttons": {
+      "selectArea": "Select an area",
+      "selectAreaHelper": "* Mandatory to continue"
+    }
+  },
+
+  "selectionArea": {
+    "headertitle": "Alright, let’s continue!",
+    "headertitleWithName": "Alright <span>{{name}}</span>, let’s continue!",
+    "start": {
+      "subtitle": "Assessment start",
+      "title": "Let’s get started!",
+      "titleWithName": "Let’s get started <span>{{name}}</span>!"
+    },
+    "progress": {
+      "subtitle": "Assessment progress",
+      "title": "Which area do you want to assess next?",
+      "text": "Pick an area in order to finish the assessment."
+    },
+    "areas": {
+      "default": {
+        "title": {
+          "start": "To start the assessment",
+          "progress": "To continue the assessment"
+        },
+        "text": "You can select one of the diagram’s areas to get more information about it and choose to start where you want to. You need to complete the 6 areas in order to finish the assessment."
+      },
+      "peopleWorkforce": {
+        "text": "This area focuses on education, training, on-the-job learning and human factors. It revolves around the importance of strengthening capabilities and educational offerings at different levels. It includes professional training, social learning, and on-the-job training. People & Workforce is about upskilling the entire population with digital and AI capabilities - dimensions that are often ignored in a tech-driven education.",
+        "duration": "Area completion time: around 5 min."
+      },
+      "dataTechnology": {
+        "text": "This area focuses on technology, interoperability, algorithms, and models. It includes data ingestion, storage, consumption, data ownership sharing, and data validation. It also includes algorithm and model accuracy, training and explainabiity, as well as standards and interoperability.",
+        "duration": "Area completion time: around 5 min."
+      },
+      "governanceRegulatory": {
+        "text": "This area focuses on formal governance structures and regulations. It encompasses the development of relevant national strategies, clear costing for implementation, clinical and scientific validation, privacy and security regulations, innovation vision, and key regulatory policies.",
+        "duration": "Area completion time: around 4 min."
+      },
+      "designProcesses": {
+        "text": "This area focuses on the integration of AI solutions in health systems and clinical workflows, model usage and performance metrics, localisation of solutions, and human-in-the-loop design.",
+        "duration": "Area completion time: around 3 min."
+      },
+      "partnershipStakeholders": {
+        "text": "This area focuses on effective partnerships, multi-sectoral public-private initiatives, goal-oriented and concerted prototyping, as well as appropriate stakeholder engagement that ranges from high level political support and industry support to relations with local partners and patients.",
+        "duration": "Area completion time: around 1 min."
+      },
+      "businessModels": {
+        "text": "This area focuses on funding sources, incentive structures, financial sustainability, pricing models, and different forms of innovative monetisation.",
+        "duration": "Area completion time: around 2 min."
+      }
+    },
+    "saveProgress": "The progress of your assessment is saved after each area. You can find your progress on this URL:",
+    "buttons": {
+      "start": "Start the assessment",
+      "endAssessment": "See my results"
+    }
+  },
+
+  "question": {
+    "title": "Welcome",
+    "titleWithName": "Welcome, <span>{{name}}</span>",
+    "subtitle": {
+      "emoji": "Select one option",
+      "image": "Select the level which applies"
+    },
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+
+  "badge": {
+    "badge1": {
+      "headertitle": "Congrats! Great progress!",
+      "headertitleWithName": "Congrats, <span>{{name}}</span>! Great progress!"
+    },
+    "badge2": {
+      "headertitle": "Congrats! Great progress!",
+      "headertitleWithName": "Congrats, <span>{{name}}</span>! Great progress!"
+    },
+    "badge3": {
+      "headertitle": "Congrats! Great progress!",
+      "headertitleWithName": "Congrats, <span>{{name}}</span>! Great progress!"
+    },
+    "badge4": {
+      "headertitle": "Congrats! Great progress!",
+      "headertitleWithName": "Congrats, <span>{{name}}</span>! Great progress!"
+    },
+    "badge5": {
+      "headertitle": "Congrats! Great progress!",
+      "headertitleWithName": "Congrats, <span>{{name}}</span>! Great progress!"
+    },
+    "badge6": {
+      "headertitle": "Congrats, you made it! See your results.",
+      "headertitleWithName": "Congrats, <span>{{name}}</span> you made it! See your results."
+    },
+    "subtitle": "Your accomplishment",
+    "title": "You have now completed {{areasCompleted}} area out of 6!",
+    "title_plural": "You have now completed {{areasCompleted}} areas out of 6!",
+    "description": "Here's your level for this area: ",
+    "shareByLink": {
+      "label": "If you want to continue later, come back to this link"
+    },
+    "buttons": {
+      "next": "Choose an area",
+      "endAssessment": "See my results"
+    }
+  }
+}

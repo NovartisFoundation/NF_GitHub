@@ -1,0 +1,7 @@
+.idea
+*.sql
+*.zip
+*.tar.gz
+.DS_Store
+.env
+.logs/

@@ -1,0 +1,22 @@
+uuid: 5d502cce-c950-4a34-aa47-f5665708213b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.area_result.field_area_result_area
+  module:
+    - novartis_quiz
+id: area_result.area_result.field_area_result_area
+field_name: field_area_result_area
+entity_type: area_result
+bundle: area_result
+label: Area
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:area'
+  handler_settings: {  }
+field_type: entity_reference

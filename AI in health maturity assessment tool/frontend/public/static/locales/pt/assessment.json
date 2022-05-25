@@ -1,0 +1,145 @@
+{
+  "title": "Novartis Foundation",
+  "description": "",
+  "url": "https://yourdomain.com",
+
+  "currentArea": "Área atual",
+  "nextArea": "Próxima área",
+  "messageBeforeExitAssessment": "Tem certeza de que deseja sair da avaliação?",
+
+  "onboarding": {
+    "subtitle": "Usaremos o seu nome exclusivamente com o objetivo de criar uma experiência de uso amigável. Não armazenaremos suas informações pessoais para nenhum outro propósito. Em caso de dúvidas, favor entrar em contato com o departamento de <a href=\"mailto:privacy.switzerland@novartis.com\">Privacidade de Dados</a>.",
+    "title": "<strong>Bem-vindo à ferramenta de avaliação de maturidade de IA para a área de saúde!</strong><br><br>Esta ferramenta de avaliação digital gratuita possibilita que países identifiquem onde melhor investir seus recursos para implementar soluções de IA impactantes e bem-sucedidas na área de saúde.<br><br>O objetivo final é que o potencial desta tecnologia transformadora possa ser aplicado em qualquer lugar, e assim nenhum país será deixado para trás.",
+    "buttons": {
+      "start": "Vamos lá começar"
+    }
+  },
+
+  "start": {
+    "subtitle": "Início da avaliação",
+    "title": "Antes de mais nada, vamos conhecer-nos.",
+    "form": {
+      "name": {
+        "placeholder": "O seu nome completo"
+      },
+      "role": {
+        "placeholder": "A sua função"
+      },
+      "country": {
+        "placeholder": "Selecione o seu país *"
+      },
+      "stakeholderGroup": {
+        "placeholder": "Selecione o seu grupo de intervenientes *"
+      }
+    },
+    "legal": "Todas estas informações são usadas para tornar a sua experiência mais agradável. Nunca as utilizaremos para fins comerciais ou de marketing.",
+    "buttons": {
+      "selectArea": "Selecionar uma área",
+      "selectAreaHelper": "*Obrigatório para continuar"
+    }
+  },
+
+  "selectionArea": {
+    "headertitle": "Muito bem, vamos continuar!",
+    "headertitleWithName": "Muito bem, <span>{{name}}</span>, vamos continuar!",
+    "start": {
+      "subtitle": "Início da avaliação",
+      "title": "Vamos começar!",
+      "titleWithName": "Vamos começar <span>{{name}}</span>!"
+    },
+    "progress": {
+      "subtitle": "Progresso da avaliação",
+      "title": "Que área pretende avaliar a seguir?",
+      "text": "Escolha uma área ou avance para a próxima para concluir a avaliação."
+    },
+    "areas": {
+      "default": {
+        "title": {
+          "start": "Para iniciar a avaliação",
+          "progress": "Para continuar a avaliação"
+        },
+        "text": "Pode selecionar uma das áreas do diagrama para obter mais informações e escolher começar onde quiser. Tem de completar as 6 áreas para concluir a avaliação."
+      },
+      "peopleWorkforce": {
+        "text": "Pessoas e Força de Trabalho consiste em capacitar a população em geral com recursos digitais e de IA - aspectos que costumam ser ignoradas na educação voltada à tecnologia.",
+        "duration": "Tempo de conclusão da área: cerca de 5 minutos."
+      },
+      "dataTechnology": {
+        "text": "Esta área foca-se na tecnologia, interoperabilidade, algoritmos e modelos. Inclui a ingestão, armazenamento, consumo, partilha de propriedade e validação de dados. Inclui também a exatidão, formação e explicabilidade do algoritmo e do modelo, bem como normas e interoperabilidade.",
+        "duration": "Tempo de conclusão da área: cerca de 5 minutos."
+      },
+      "governanceRegulatory": {
+        "text": "Esta área foca-se em estruturas e regulamentos formais de administração. Abrange o desenvolvimento de estratégias nacionais relevantes, custos claros para implementação, validação clínica e científica, regulamentos de privacidade e segurança, visão de inovação e políticas regulamentares chave.",
+        "duration": "Tempo de conclusão da área: cerca de 4 minutos."
+      },
+      "designProcesses": {
+        "text": "Esta área foca-se na integração de soluções de IA nos sistemas de saúde e em fluxos de trabalho clínico, na utilização de modelos e métricas de desempenho, na localização de soluções e no design de iteratividade humana.",
+        "duration": "Tempo de conclusão da área: cerca de 3 minutos."
+      },
+      "partnershipStakeholders": {
+        "text": "Esta área foca-se em parcerias eficazes, iniciativas públicas-privadas multissetoriais, prototipagem orientada por objetivos e concertada, bem como no envolvimento apropriado dos intervenientes, que vai desde um apoio político de alto nível e apoio ao setor a relações com parceiros locais e com doentes.",
+        "duration": "Tempo de conclusão da área: cerca de 1 minutos."
+      },
+      "businessModels": {
+        "text": "Esta área foca-se em fontes de financiamento, estruturas de incentivo, sustentabilidade financeira, modelos de preços e diferentes e inovadoras formas de monetização.",
+        "duration": "Tempo de conclusão da área: cerca de 2 minutos."
+      }
+    },
+    "saveProgress": "O progresso da sua avaliação é guardado após cada área. Pode visualizar o seu progresso neste URL:",
+    "buttons": {
+      "start": "Para iniciar a avaliação",
+      "endAssessment": "Veja meus resultados"
+    }
+  },
+
+  "question": {
+    "title": "Bem-vinda",
+    "titleWithName": "Bem-vinda, <span>{{name}}</span>",
+    "subtitle": {
+      "emoji": "Selecione uma opção",
+      "image": "Selecione todas as opções aplicáveis"
+    },
+    "buttons": {
+      "back": "Voltar",
+      "next": "Seguinte"
+    }
+  },
+
+  "badge": {
+    "badge1": {
+      "headertitle": "Parabéns! Fantástico progresso!",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span>! Fantástico progresso!!"
+    },
+    "badge2": {
+      "headertitle": "Parabéns! Fantástico progresso!",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span>! Fantástico progresso!!"
+    },
+    "badge3": {
+      "headertitle": "Parabéns! Fantástico progresso!",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span>! Fantástico progresso!!"
+    },
+    "badge4": {
+      "headertitle": "Parabéns! Fantástico progresso!",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span>! Fantástico progresso!!"
+    },
+    "badge5": {
+      "headertitle": "Parabéns! Fantástico progresso!",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span>! Fantástico progresso!!"
+    },
+    "badge6": {
+      "headertitle": "Parabéns, você terminou! Veja seus resultados.",
+      "headertitleWithName": "Parabéns, <span>{{name}}</span> você terminou! Veja seus resultados."
+    },
+    "subtitle": "Sua realização",
+    "title": "Acabou de concluir uma {{areasCompleted}} de seis áreas!!",
+    "title_plural": "Acabou de concluir uma {{areasCompleted}} de seis áreas!!",
+    "description": "Aqui está a sua pontuação para esta área: ",
+    "shareByLink": {
+      "label": "Se quiser continuar mais tarde, volte a este link"
+    },
+    "buttons": {
+      "next": "Escolher área",
+      "endAssessment": "Veja meus resultados"
+    }
+  }
+}

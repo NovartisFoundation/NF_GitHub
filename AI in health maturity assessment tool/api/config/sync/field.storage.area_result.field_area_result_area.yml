@@ -1,0 +1,19 @@
+uuid: ba2950f6-eb91-4ea8-a66c-462a1eeec231
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: area_result.field_area_result_area
+field_name: field_area_result_area
+entity_type: area_result
+type: entity_reference
+settings:
+  target_type: area
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

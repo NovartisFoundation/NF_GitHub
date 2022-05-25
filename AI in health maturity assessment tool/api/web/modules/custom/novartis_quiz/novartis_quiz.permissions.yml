@@ -1,0 +1,60 @@
+add area entities:
+  title: 'Create new Area entities'
+
+administer area entities:
+  title: 'Administer Area entities'
+  description: 'Allow to access the administration form to configure Area entities.'
+  restrict access: true
+
+delete area entities:
+  title: 'Delete Area entities'
+
+edit area entities:
+  title: 'Edit Area entities'
+
+view published area entities:
+  title: 'View published Area entities'
+
+view unpublished area entities:
+  title: 'View unpublished Area entities'
+
+add quiz session entities:
+  title: 'Create new Quiz session entities'
+
+administer quiz session entities:
+  title: 'Administer Quiz session entities'
+  description: 'Allow to access the administration form to configure Quiz session entities.'
+  restrict access: true
+
+delete quiz session entities:
+  title: 'Delete Quiz session entities'
+
+edit quiz session entities:
+  title: 'Edit Quiz session entities'
+
+view published quiz session entities:
+  title: 'View published Quiz session entities'
+
+view unpublished quiz session entities:
+  title: 'View unpublished Quiz session entities'
+
+add area result entities:
+  title: 'Create new Area result entities'
+
+administer area result entities:
+  title: 'Administer Area result entities'
+  description: 'Allow to access the administration form to configure Area result entities.'
+  restrict access: true
+
+delete area result entities:
+  title: 'Delete Area result entities'
+
+edit area result entities:
+  title: 'Edit Area result entities'
+
+view published area result entities:
+  title: 'View published Area result entities'
+
+view unpublished area result entities:
+  title: 'View unpublished Area result entities'
+

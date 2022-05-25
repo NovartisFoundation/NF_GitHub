@@ -1,0 +1,32 @@
+uuid: 8b2db961-b5ca-487f-9d1a-96fff643166a
+langcode: en
+status: true
+dependencies: {  }
+id: client_application
+label: 'Client Application'
+weight: 2
+is_admin: null
+permissions:
+  - 'add area entities'
+  - 'add area result entities'
+  - 'add quiz session entities'
+  - 'add simple_oauth entities'
+  - 'administer area entities'
+  - 'administer area result entities'
+  - 'administer paragraphs settings'
+  - 'administer paragraphs types'
+  - 'administer quiz session entities'
+  - 'delete area entities'
+  - 'delete area result entities'
+  - 'delete quiz session entities'
+  - 'edit area entities'
+  - 'edit area result entities'
+  - 'edit behavior plugin settings'
+  - 'edit quiz session entities'
+  - 'view published area entities'
+  - 'view published area result entities'
+  - 'view published quiz session entities'
+  - 'view unpublished area entities'
+  - 'view unpublished area result entities'
+  - 'view unpublished paragraphs'
+  - 'view unpublished quiz session entities'

@@ -1,0 +1,52 @@
+uuid: 550639d8-3c35-438d-8341-11d8d025697d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_question.field_question_answers
+    - field.field.paragraph.image_question.field_question_theme
+    - field.field.paragraph.image_question.field_question_title
+    - paragraphs.paragraphs_type.image_question
+  module:
+    - paragraphs
+id: paragraph.image_question.default
+targetEntityType: paragraph
+bundle: image_question
+mode: default
+content:
+  field_question_answers:
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_question_theme:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_question_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  translation:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,10 @@
+uuid: 17174bc5-a023-4590-8dcf-07ae10bcf9a7
+langcode: en
+status: true
+dependencies: {  }
+id: pillar
+label: Pillar
+icon_uuid: null
+icon_default: null
+description: 'Paragraph entity for pillars within an area'
+behavior_plugins: {  }

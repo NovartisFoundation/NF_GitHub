@@ -1,0 +1,385 @@
+{
+  "title": "Novartis Foundation | Report",
+  "description": "",
+  "url": "https://yourdomain.com/report",
+
+  "header": {
+    "heading": "Parabéns!!",
+    "subtitle": "Parabéns!!",
+    "title": "Concluiu toda a avaliação, aqui estão os seus resultados",
+    "description": "Veja como pode melhorar;",
+    "shareButton": "Partilhar o relatório"
+  },
+  "share": {
+    "title": "Partilhar o relatório",
+    "form": {
+      "shareByLink": {
+        "label": "Compartilhe seus resultados como um link"
+      },
+      "shareByEmail": {
+        "label": "Compartilhe seus resultados por e-mail",
+        "placeholder": "O seu e-mail",
+        "buttons": {
+          "send": "Mandar",
+          "loading": "Carregando...",
+          "emailSent": "Email enviado!"
+        },
+        "errors": {
+          "filedRequired": "Este campo é obrigatório.",
+          "emailSentError": "O email não foi enviado. Encontramos um erro do nosso lado."
+        }
+      }
+    }
+  },
+  "scoreArea": {
+    "title": "Pontuação de área e investimento",
+    "subtitle": "Personalização da área",
+    "creditText": "Invista <strong>{{credits}}</strong> créditos",
+    "investSwitch": {
+      "personal": "Tentar investir-me",
+      "auto": "Mostre-me o melhor investimento para um maior impacto"
+    },
+    "popup": {
+      "score": {
+        "title": "Como investiríamos de forma a obter o máximo impacto?",
+        "text": [
+          "Quando optar por investir, certifique-se de que distribui o seu esforço por todas as áreas.",
+          "Somente através do investimento uniforme irá alcançar o nível seguinte em IA na área de maturidade da saúde."
+        ]
+      },
+      "invest": {
+        "title": "Experimente investir",
+        "text": [
+          "Para entender melhor qual pode ser o seu impacto caso você decida inveestir em uma das áreas, use os botões de + e - junto à cada área.",
+          " Certifique-se de que distribuiu o seu esforço por todas as áreas disponíveis. Somente através do investimento uniforme podemos alcançar o próximo nível de maturidade em soluções em IA na área de saúde."
+        ]
+      }
+    }
+  },
+  "chart": {
+    "label": "Pontuação inicial",
+    "score": "pontuação",
+    "ideal": "Limiar de consolidação ideal"
+  },
+  "completionBadge":{
+    "title": "Crachá de conclusão",
+    "button": "Transferir o meu crachá em .jpg"
+  },
+  "badges": {
+    "title": "Os meus crachás",
+    "button": "Transferir todos os meus crachás"
+  },
+  "recommandationArea": {
+    "title": "Recomendações de área",
+    "strongest": "O pilar mais forte",
+    "opportunity": "Pilar de oportunidade",
+    "modal": {
+      "peopleWorkforce": {
+        "title": "Recomendações gerais para esta área",
+        "list": [
+          "Reforçar as capacidades nacionais de DSAI e integrar soluções de IA na saúde<ul><li>Fazer da DSAI uma prioridade nacional em todos os níveis dos programas de ensino pré-laboral e do plano curricular, na área da saúde e mais além.</li><li>Apresentar ações de formação em serviço certificadas e adaptadas às necessidades dos profissionais de saúde, dos administradores do setor da saúde e dos decisores políticos. Tais oportunidades de formação devem também orientar-se para evitar receios de perda de emprego. Apresentar oportunidades de bolsas de estudo para serviços de saúde orientados por dados, visando tanto académicos na área da saúde como da engenharia, e potencialmente organizados em CE (Centros de Excelência) exclusivos ou institutos de investigação.</li><li>Desenvolver regularmente uma estratégia para desenvolver, atrair e reter talentos de DSAI e monitorizar a disponibilidade nacional das competências em DSAI, potencialmente através de um índice estatístico anual.</li><li>Implementar medidas para aumentar a literacia digital da população em geral para apoiar a utilização de IA, particularmente para jovens e grupos vulneráveis.</li></ul>",
+          "Integrar soluções de IA nos fluxos de trabalho da área da saúde através de uma adequada gestão de mudança<ul><li>Esboçar orientações para a implementação eficaz de soluções orientadas por IA e para a respetiva integração nos fluxos de trabalho e processos do sistema de saúde através de uma gestão de mudança eficaz.</li></ul>",
+          "Design centrado no ser humano para IA na área da saúde<ul><li>Integrar metodologias ágeis e o design centrado no ser humano como métodos transversais em fluxos de trabalho de sistemas de saúde e ofertas educativas.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Definir prioridades focando-se nas necessidades e fraquezas do sistema de saúde que podem ser abordadas ou melhoradas com a ajuda da IA. Esta lista de prioridades deve estar disponível ao público e ser revista anualmente.",
+              "Desenvolver políticas e regulamentos para a IA na área da saúde, potencialmente em conjunto com administradores do sistema de saúde, hospitais, profissionais de saúde, engenheiros, sociedade civil e líderes de opinião.",
+              "Estabelecer o envolvimento, apoio e confiança públicos, criando mecanismos de diálogo sobre o valor dos dados para os serviços de saúde e as iniciativas que alavancam a IA.",
+              "Criar grupos de trabalho interorganizacionais dedicados à elaboração de políticas e regulamentos.",
+              "Organizar uma sólida formação em DSAI, pré-laboral e em serviço, e definir uma estratégia para desenvolver, atrair e reter talentos.",
+              "Disponibilizar apoio político e financiamento para uma distribuição adequada de talentos e capacidades em todo o país."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Participar conjuntamente com o governo e com o setor privado no estabelecimento de agendas, reforço de capacidades e planeamento para fortalecer os talentos e competências da DSAI.",
+              "Apoiar o desenvolvimento de conteúdos da DSAI no plano curricular nacional e em programas de formação, destacando especialistas ou oferecendo bolsas de estudo de interesse.",
+              "Apoiar sistemas de saúde para integrar soluções de IA validadas e fortalecer as capacidades de serviço da DSAI.",
+              "Envolver-se em PPP para aprofundamento da investigação, validação ou colocação de novas soluções ou evidências em prática."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Complementar as lacunas do setor público, por exemplo, fornecendo especialistas na matéria às PPP ou prestando apoio à formação profissional.",
+              "Partilhar as melhores práticas do setor para a adoção de tecnologia, administração de dados e gestão da mudança."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover os direitos humanos básicos relacionados com a IA, tais como o direito à não-discriminação, igualdade, diversidade, justiça e direitos mais técnicos, como a propriedade de dados para utilizações secundárias de dados.",
+              "Orientar campanhas educativas a nível público para ilustrar os benefícios e riscos da IA na saúde (por exemplo, destacar medidas de segurança e privacidade apropriadas para promover a IA como uma força para mudanças positivas, como, por exemplo, melhores resultados na área da saúde ou sistemas de saúde mais eficientes. Reunir grupos de trabalho internacionais para partilhar as melhores práticas e promover a colaboração internacional."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Definir as necessidades da organização de saúde e medidas de sucesso onde a IA possa ter o maior impacto com base nas necessidades de saúde atuais e futuras.",
+              "Implementar a gestão da mudança. Melhores práticas para a adoção de tecnologias e operacionalização de processos modificados, ao mesmo tempo que se abordam as preocupações dos profissionais de saúde através da educação e participação. Os hospitais universitários devem desempenhar um papel ativo na prestação de educação contínua sobre dados e serviços de saúde e cuidados orientados por IA.",
+              "Contratar ou formar administradores de design ágil e centrado no ser humano e capacitá-los para otimizar os fluxos de trabalho operacionais na área da saúde. Promover a sua participação em PPP e em iniciativas públicas."
+            ]
+          }
+        }
+      },
+      "dataTechnology": {
+        "title": "Recomendações gerais para esta área Data Technology",
+        "list": [
+          "Definir objetivos nacionais para a inovação em IA de modo a centrá-la em torno dos encargos de saúde prioritários e lacunas do sistema de saúde. Executar a estratégia – incluindo uma estratégia clara de dados de saúde, e implementar os recursos para alcançar estes objetivos.<ul><li>Os recursos devem incluir componentes físicos para IA (por exemplo, computador, hardware e instalações de rede, conectividade), ferramentas de ciência de dados, plataformas e componentes de rede, elevado rendimento de dados e formas que permitam o acesso em tempo real.</li><li>A estratégia de dados tem de prever os processos necessários para a digitalização e integridade de dados, conjuntos de formação e validação e conjuntos de dados de teste. Deve também promover padrões de dados abertos, conjuntos de dados públicos e níveis de segurança para a partilha de dados e armazenamento (no local ou na nuvem). Os acordos de partilha de dados, colaboração de dados e estrutura de partilha de dados devem ser priorizados no que concerne às necessidades de saúde pública, salvaguardando rigorosamente a privacidade (quer diga respeito à partilha ad hoc, acordos-quadro ou colaboração de dados, solidariedade/altruísmo de dados ou ecossistemas do mercado de dados).</li><li>A estratégia de dados também deve promover uma boa administração de dados, a validação sistemática de dados e a análise avançada em várias aplicações do sistema de saúde.</li></ul>",
+          "Criar e implementar conjuntamente normas autoritárias para a interoperabilidade (técnica, estrutural, semântica, organizacional) e redigir diretrizes orientadas pelo consentimento para a respetiva implementação adequada no setor de serviços de saúde.",
+          "Redigir legislação em matéria de normas de segurança e privacidade e implementar as melhores práticas em toda a cadeia de valor do setor de serviços de saúde."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Investir em infraestruturas adequadas, tais como capacidades robustas de conectividade e armazenamento (no local ou na nuvem) para os dados do setor da saúde e respetivas camadas de segurança.",
+              "Tornar os dados não sensíveis publicamente disponíveis e, os sensíveis, conformes com a [legislação sobre] privacidade de dados e acessíveis com segurança pelos agentes acreditados (por exemplo, no caso de prioridades de saúde pública e investigação básica), promovendo simultaneamente acordos-quadro de partilha em matéria de inovação simplificada.",
+              "Redigir legislação para padrões de interoperabilidade e regulamentar os requisitos de explicabilidade, ao mesmo tempo que se envolve amplamente com o público para promover políticas sobre IA ética (por exemplo, organizações de doentes)."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover, financiar e participar em iniciativas de IA que implementem padrões de dados abertos, ou participar em colaborações de dados.",
+              "Promover discussões em fóruns públicos orientados para estratégias e administração de dados, interoperabilidade, privacidade e ética e a importância da explicabilidade na área da saúde.",
+              "Promover trocas de ideias através de grupos de trabalho tecnológicos internacionais e esforços liderados pelo governo."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Liderar esforços em IA para Boas soluções.",
+              "Produzir métricas consolidadas de consumo de dados e RWE, incluindo oportunidades de aprendizagem federadas e repositórios de dados selecionados de forma aberta para benefícios de saúde pública para ilustrar o impacto positivo da IA nos resultados do setor da saúde e melhorias do sistema de saúde.",
+              "Implementar as melhores práticas líderes do setor para padrões, interoperabilidade e explicabilidade em alinhamento com as diretrizes públicas."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover padrões e práticas de dados abertos e colocar a explicabilidade e interoperabilidade no centro de uma boa administração de dados e tecnológica.",
+              "Defender uma forte proteção da privacidade, segurança e dos dados.",
+              "Organizações de doentes que participem ativamente em discussões sobre políticas."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Colaborar com os intervenientes numa sólida política de segurança e privacidade e implementar fortes camadas de segurança e privacidade para cultivar a confiança do público.",
+              "Definir processos claros para identificação do doente, facilitar o envolvimento do doente e o acesso do doente a informações de saúde e melhorar a compreensão do doente dos benefícios e riscos dos dados e da IA na área da saúde.",
+              "Desenvolver uma base de dados abrangente e um painel de informação de doentes com determinantes clínicos e sociais integrados e dados de reclamações."
+            ]
+          }
+        }
+      },
+      "governanceRegulatory": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Definir um roteiro de implementação nacional para avançar na curva de consolidação da IA na área da saúde. Isto deve incluir todos os intervenientes relevantes, delinear a administração – incluindo funções e responsabilidades – e promover ações governamentais e do setor privado.",
+          "Desenvolver políticas, diretrizes e documentos técnicos claros para capacitar uma forte administração de dados e de IA, estabelecer mecanismos de responsabilização e defender dados como um ativo de saúde pública.<ul><li>Estes devem incluir políticas para monitorização contínua e auditoria de IA em soluções de saúde, bem como políticas para PI e inovação aberta para IA na área da saúde.</li><li>Definir normas de validação clínica e políticas para a eficácia e segurança de IA na saúde (para a utilização prevista). Orientar a validação científica através de academias médicas e tecnológicas, sociedades e organismos profissionais oficiais.</li></ul>",
+          "Integrar os direitos fundamentais (por exemplo, direitos à não-discriminação e à igualdade), restrições regulamentares (por exemplo, RGPD, HIPAA) e privacidade nos quadros legislativos e na administração do sistema de saúde.<ul><li>Formalizar processos e canais para exemplificar como os dados são usados e acedidos, criando um forte instrumento de administração da privacidade e segurança.</li><li>Introduzir quadros legislativos baseados na ética e nos direitos, inclusivamente para grupos vulneráveis.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Orientar a IA do governo na estratégia e no roteiro para a área da saúde e envolver intervenientes e especialistas no processo.",
+              "Ter organismos reguladores a estabelecer uma regulamentação clara para o acesso ao mercado e validação clínica de soluções baseadas em IA, fornecer diretrizes detalhadas para submissões baseadas em IA e procedimentos de “fast-track”, e colaborar amplamente com intervenientes externos para a troca de conhecimentos.",
+              "Proporcionar fortes proteções de privacidade e de segurança e detalhar as implicações da IA sobre os direitos fundamentais.",
+              "Promover regimes de políticas para abertura ou inovação conjunta em IA no setor da saúde e modelos de cooperação internacional para políticas sobre IA, saúde e educação."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Apoiar o governo na criação de IA nacional em estratégias de saúde através de colaborações internacionais, PPP, grupos de trabalho e outras iniciativas.",
+              "Trabalhar com o governo para promover fortes direitos humanos e segurança para IA na área da saúde.",
+              "Organizar ou participar em fóruns para definir conjuntamente a IA para a administração de dados, e moldar iniciativas."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Os parceiros do setor de serviços de saúde e tecnologias podem trabalhar em conjunto com os governos para lidar com as lacunas a nível da proficiência ou da transferência de conhecimento para apoiar a IA enquanto bem público.",
+              "Trabalhar em estreita colaboração com as entidades reguladoras para simplificar os processos de análise e as apresentações no mercado. Implementar fluxos de trabalho e processos claros para garantir o respeito pelos direitos humanos e a conformidade com as restrições regulamentares e a implementação das melhores práticas."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover uma forte liderança para IA na área da saúde para alcançar os objetivos de saúde pública e UHC.",
+              "Estabelecer organismos de vigilância para a administração e conformidade regulamentar da IA na área da saúde.",
+              "Fomentar a adoção e aplicação contínua dos direitos fundamentais para a aplicação em contexto real da IA na área da saúde, bem como para a investigação básica."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Disponibilizar especialistas que possam ajudar na elaboração e melhoria contínua da IA nacional na estratégia do setor da saúde e no roteiro de implementação.",
+              "Sociedades e academias médicas e tecnológicas cultivam consenso e validade em torno da validação científica e clínica de soluções de IA.",
+              "Fazer dos direitos e da privacidade a base da estratégia de dados e de análise das organizações de saúde para cultivar a confiança."
+            ]
+          }
+        }
+      },
+      "designProcesses": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Integração do sistema de saúde e do fluxo de trabalho<ul><li>Avaliar necessidades e oportunidades para implementar soluções de IA que possam fortalecer os sistemas de saúde, tais como otimização de processos operacionais, diagnósticos mais exatos e mais rápidos ou outras soluções que possam melhorar a qualidade dos cuidados ou reduzir a carga de trabalho dos profissionais de saúde.</li><li>Estabelecer a iteratividade humana e localização como prática padronizada de IA no desenvolvimento de soluções de saúde, implementação e melhoria contínua.</li><li>Definir KPI para monitorizar e avaliar a escalabilidade de soluções de IA em diferentes níveis e usar casos de saúde e cuidados, e monitorizar modelos de IA ativos e não ativos em todo o sistema de saúde, enquanto se quantifica o seu impacto nos resultados de saúde, eficiências e noutras métricas.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Criar e atualizar continuamente diretrizes oficiais sobre a integração da IA nos processos do sistema de saúde; colaborar com líderes do sistema de saúde para definir as melhores práticas, protocolos e fluxos de trabalho.",
+              "Apoiar iniciativas públicas que se foquem no design centrado em humanos nos serviços de saúde e dados orientados por IA.",
+              "Estabelecer um cargo para o design centrado no ser humano dentro dos ministérios da Saúde e das TIC.",
+              "Definir KPI para monitorizar a escalabilidade das soluções de IA e para monitorizar modelos ativos e inativos."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Disponibilizar conhecimentos sobre sistemas de saúde, administração ou políticas a líderes e gestores nacionais e locais de sistemas de saúde.",
+              "Desenvolver conjuntamente princípios de IA centrados no ser humano.",
+              "Grupos de doentes para procurar participação no design de IA para a área saúde."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Trabalhar em estreita colaboração com organizações de saúde para garantir que a IA é concebida para uma integração adequada do sistema de saúde.",
+              "Fornecer soluções integradas, para acompanhamento do modelo e desempenho, compatíveis com HIS.",
+              "Promover a inovação centrada no ser humano, por exemplo, através de uma plataforma de inovação, de campus de inovação ou da semana da inovação."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Estabelecer relações fortes com os intervenientes locais e incorporá-los no desenvolvimento de negócios e design de soluções por parte dos inovadores.",
+              "Demonstrar a evidência do impacto positivo da IA na área da saúde e colaborar com os intervenientes no sentido de auxiliar os sistemas de saúde a integrar a IA."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Colaborar ativamente com inovadores, programadores, grupos de doentes e líderes do setor para ajudar a desenvolver",
+              "Soluções de IA, simplificando assim a adoção clínica/de serviços de saúde; ajudar as agências governamentais a elaborar diretrizes autoritárias para a integração da IA no sistema de saúde.",
+              "Organizar ou participar em iniciativas sobre design centrado no ser humano e destacar a sua importância para a utilização, adesão e resultados do doente.",
+              "Desenvolver e investir em capacidades e competências para acompanhar modelos de IA dentro de uma organização de saúde e para medir resultados de saúde ou outros KPI que alimentem um ciclo contínuo de revisão e melhoria."
+            ]
+          }
+        }
+      },
+      "partnershipStakeholders": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Os ministérios e os líderes do setor dão prioridade e apoiam a IA como uma ferramenta para melhorar a saúde e a prestação de cuidados e fortalecer os sistemas de saúde.",
+          "As PPP focam-se no objetivo público de melhorar a saúde e coordenar esforços para evitar a fragmentação minimizando a complexidade e burocracia das operações da parceria.",
+          "Estabelecer um quadro de inovação organizacional para combater a fragmentação, como um parque ou estrutura de inovação que esteja alinhado com as prioridades de saúde pública e interesses dos doadores. Estabelecer também um fórum para discussões e coordenação com intervenientes."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Os ministérios ao mais alto nível apoiam formalmente a priorização de tecnologias de IA para melhorar os sistemas de saúde e serviços de saúde e fornecer recursos humanos, financeiros, especializados, entre outros, relevantes.",
+              "Oferecer uma estrutura e/ou plataforma centralizada, revista e apoiada pelo governo para parcerias mais eficazes.",
+              "Apoiar a criação de um parque de inovação apoiado pelo governo."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Demonstrar o impacto real transformacional da IA nos sistemas de saúde e resultados (lobby) para promover um forte apoio político e de liderança.",
+              "Desenvolver relatórios detalhados ou diretrizes sobre estratégias de parceria eficazes na era da IA e de um local de trabalho ágil.",
+              "As ONG Internacionais, organizações de doentes e sociedade civil participam em iniciativas para o benefício geral da saúde através de comissões especializadas ou da ciência dos cidadãos."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Os líderes do setor e inovadores promovem o papel da IA nos serviços de saúde e envolvem-se em eventos públicos, tais como conferências ou discussões de inovação e tecnologia.",
+              "Fornecer uma visão geral focada dos objetivos estratégicos e papel geral das parcerias na obtenção de melhores resultados de saúde; participar em eventos e conferências de inovação, bem como PPP.",
+              "Apoiar iniciativas-piloto e prestar assistência (em espécie) para as desenvolver."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover os benefícios positivos para a sociedade e para a saúde dos parques de inovação, grandes desafios e grupos de investigação.",
+              "Atuar como catalisador para integrar soluções de IA na área da saúde, reunindo diferentes intervenientes e grupos de interesse."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Estabelecer um cargo formal para o envolvimento de parceiros com comunicação direta à liderança executiva das principais organizações de saúde.",
+              "Colaborar diretamente com agências governamentais para destacar os maiores pontos problemáticos do sistema de saúde e o potencial da IA para abordar estes problemas, bem como as experiências e lições aprendidas.",
+              "Inscrever-se apenas em pilotos que passem um teste básico de escalabilidade e stress."
+            ]
+          }
+        }
+      },
+      "businessModels": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Financiamento<ul><li>Criar, simplificar e promover estruturas de incentivo para soluções de IA que abordem as prioridades de saúde pública ou fortaleçam o sistema de saúde, tais como benefícios fiscais, imunidade fiscal, subsídios governamentais, benefícios em espécie e outros benefícios.</li><li>Incentivar modelos de negócio sustentáveis para que a expansão da IA em produtos e serviços de saúde possa ser apoiada através de investimentos nacionais e do setor privado.</li><li>Implementar uma orçamentação ágil para o trabalho governamental relacionado com IA na área da saúde.</li><li>Cultivar uma rede ativa e ampla de doadores e financiadores que sejam facilmente acessíveis a inovadores e “start-ups”.</li><li>Explorar o recurso a mecanismos de financiamento inovadores para iniciativas com impacto social, como IA na área da saúde. Isto pode trazer novas fontes de capital para a IA e aumentar os incentivos para o resultados na área da saúde e ter impacto na monitorização da IA em soluções de saúde.</li><li>As instituições e universidades públicas de investigação devem colaborar para comercializar a investigação e direitos de PI adquiridos.</li><li>Desenvolver e apoiar estratégias de monetização sustentável que estejam alinhadas com as prioridades de saúde pública e também em conformidade com a privacidade (por exemplo, dados de consumíveis, resultados e monetização de análises, capacidades de escala e produtos para licenciamento (externo), etc.)</li><ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Estabelecer relações fortes e incentivar investimentos de doadores na IA nacional no setor da inovação na área da saúde.",
+              "Financiar o estabelecimento de uma IA nacional para o programa de I&D ou PPP.",
+              "Apresentar ou apoiar financiamento inovador para IA na área da saúde, por exemplo, através de obrigações de impacto social."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Financiar ou ligar-se a doadores para a IA em projetos de saúde que cumpram critérios como impacto no sistema de saúde, resultados do doente, inovação aberta e dados, etc.",
+              "Publicar análises dos líderes de opinião e/ou diretrizes sobre dados justos e em conformidade com a privacidade e práticas de monetização."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "As “start-ups”, a indústria e os doadores colaboram em modelos de negócio novos e sustentáveis que abordam os desafios da saúde pública e da saúde global.",
+              "Orientar esforços para aumentar os modelos de negócio de impacto social que alavancam a IA para a saúde pública.",
+              "Os líderes do setor oferecem grandes desafios, prémios, pagamentos em espécie (por exemplo, especialização) a inovadores em ascensão."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "Promover práticas justas de monetização de dados e informações em conformidade com a [legislação sobre] privacidade.",
+              "Abordar as prioridades de saúde pública e implementar as melhores práticas para promover os direitos dos doentes."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Apelo à ação para grupos de intervenientes",
+            "list": [
+              "As organizações de saúde concedem benefícios de acesso à IA (por exemplo, dados, acesso de doentes, investigação, etc.) aos promotores de saúde que, provavelmente, terão um impacto grande e positivo na organização e no sistema de saúde.",
+              "As organizações de saúde participam em redes de organizações de saúde e promovem a adoção, baseada em evidências, de soluções com impactos positivos comprovados."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "email": {
+    "subject": "Avaliação de maturidade em Inteligência Artificial aplicada à Saúde",
+    "thankYou": "Parabéns! Você completou a avaliação de maturidade em Inteligência Artificial aplicada à Saúde",
+    "now": "Guarde esse email para caso você queira rever seus resultados no futuro. Compartilhe seus resultados com seus colegas sempre que quiser utilizando o link abaixo e convide eles a fazer parte da avaliação.",
+    "see": "Veja meus resultados",
+    "copy": "Ou copie o link abaixo:",
+    "forgot": "Esqueceu de baixar seus crachás?",
+    "comeBack": "Você sempre pode voltar para sua página de resultados. <br /> Se você compartilhar seus emblemas nas redes sociais, recomendamos que use as seguintes hashtags:",
+    "TermsOfUse": "As recomendações aqui descritas foram desenvolvidas pela Fundação Novartis e/ou seus parceiros, como parte do Broadband Commission Working Group on AI in Health; antes da implementação local, as partes interessadas devem assegurar o cumprimento de todas as leis e regulamentos aplicáveis, incluindo códigos industriais locais e políticas institucionais. Links e conteúdo podem estar sujeitos a alterações sem notificação. Aplicam-se os <a href=\"https://www.yourdomain.com.org/terms-of-use\">Termos de Uso</a> da Fundação Novartis."
+  },
+  "footer": "As recomendações aqui descritas foram desenvolvidas pela Fundação Novartis e/ou seus parceiros, como parte do Broadband Commission Working Group on AI in Health; antes da implementação local, as partes interessadas devem assegurar o cumprimento de todas as leis e regulamentos aplicáveis, incluindo códigos industriais locais e políticas institucionais. Links e conteúdo podem estar sujeitos a alterações sem notificação. Aplicam-se os <a href=\"https://www.yourdomain.com.org/terms-of-use\">Termos de Uso</a> da Fundação Novartis."
+}

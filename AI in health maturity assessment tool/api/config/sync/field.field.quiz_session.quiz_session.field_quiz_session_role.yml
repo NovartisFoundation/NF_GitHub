@@ -1,0 +1,20 @@
+uuid: 3b46e30b-259c-4e1c-8dba-20b70f20712a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_session.field_quiz_session_role
+  module:
+    - novartis_quiz
+id: quiz_session.quiz_session.field_quiz_session_role
+field_name: field_quiz_session_role
+entity_type: quiz_session
+bundle: quiz_session
+label: Role
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

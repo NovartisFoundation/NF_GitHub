@@ -1,0 +1,18 @@
+uuid: 407a1e7a-883a-4539-b158-5cf506805371
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.emoji_question
+id: paragraph.emoji_question.created
+field_name: created
+entity_type: paragraph
+bundle: emoji_question
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

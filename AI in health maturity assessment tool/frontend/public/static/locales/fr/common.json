@@ -1,0 +1,77 @@
+{
+  "title": "Novartis Foundation",
+  "description": "",
+  "url": "https://yourdomain.com/fr",
+
+  "areas": {
+    "peopleWorkforce": "Personnel et main-d’œuvre",
+    "dataTechnology": "Données et technologie",
+    "governanceRegulatory": "Gouvernance et réglementation",
+    "designProcesses": "Conception et processus",
+    "partnershipStakeholders": "Partenariats et parties prenantes",
+    "businessModels": "Modèles commerciaux"
+  },
+  "groups": {
+    "ministries": "Ministères des Finances, de l’Enseignement, de la Santé et de la Technologie",
+    "ingosCivilSocietyImplementers": "ONGI, société civile, et responsables de la mise en œuvre",
+    "privateCompaniesStartups": "Sociétés privées et start-up",
+    "advocacyGroups": "Groupes de plaidoyer",
+    "healthOrganizations": "Établissements de santé"
+  },
+  "badge": {
+    "alt": "Badges collectés",
+    "levels": {
+      "1": "Explorer",
+      "2": "Émergent",
+      "3": "Leader"
+    }
+  },
+  "badgesCollection": {
+    "label": "Badges collectés :"
+  },
+  "buttonDownloadBadge": {
+    "label": "Télécharger mon badge en .jpg"
+  },
+  "languageSelector": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Portuguese"
+  },
+  "error": {
+    "default": {
+      "server": "Une erreur {{statusCode}} s'est produite sur le serveur",
+      "client": "Une erreur s'est produite sur le client"
+    },
+    "404": {
+      "title": "Page non trouvé (404)",
+      "description": "L'URL demandée n'a pas été trouvée sur ce serveur.",
+      "button": "Revenir à la page d'accueil"
+    },
+    "500": {
+      "title": "Erreur interne au serveur (500)",
+      "description": "Une erreur interne au serveur a eu lieu."
+    },
+    "IESupport": {
+      "title": "Navigateur pas supporté",
+      "description": "Il semblerait que vous utilisez une version de navigateur web que nous ne prenons pas en charge. Assurez-vous que vous utilisez la version la plus récente de votre navigateur ou essayez d'utiliser un autre navigateur, pour profiter pleinement de l'expérience du site Web."
+    }
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "Nous travaillons actuellement sur le site Web."
+  },
+  "formSelect": {
+    "noOptionsMessage": "Aucune option"
+  },
+  "kidney": {
+    "defaultText": "Cliquez sur une zone pour la sélectionner ou en savoir plus."
+  },
+  "shareByLink": {
+    "buttons": {
+      "copyLink": "Copier le lien",
+      "linkCopied": "Lien copié !"
+    }
+  },
+  "scrollTop": "Scroll vers le haut"
+}

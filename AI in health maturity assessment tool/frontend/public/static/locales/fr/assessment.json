@@ -1,0 +1,144 @@
+{
+  "title": "Novartis Foundation | Evaluation",
+  "description": "",
+  "url": "https://yourdomain.com/fr",
+
+  "currentArea": "Zone actuelle",
+  "nextArea": "Zone suivante",
+  "messageBeforeExitAssessment": "Voulez-vous vraiment quitter l'évaluation ?",
+
+  "onboarding": {
+    "subtitle": "Nous utiliserons votre nom uniquement dans le but de créer une expérience agréable. Nous ne conserverons pas vos informations personnelles à d'autres fins. Si vous avez des questions, veuillez contacter <a href=\"mailto:privacy.switzerland@novartis.com\">Data Privacy</a>.",
+    "title": "<strong>Bienvenue dans l'outil d'évaluation IA dans le domaine de la santé!</strong> <br><br>Cet outil d'évaluation numérique gratuit aide les pays à identifier où investir au mieux leurs ressources pour permettre le déploiement de solutions d'intelligence artificielle dans le domaine de la santé.<br><br>Le but ultime est que le potentiel de cette technologie transformatrice puisse être réalisé partout, et qu'aucun pays ne soit laissé pour compte.",
+    "buttons": {
+      "start": "Commençons"
+    }
+  },
+  "start": {
+    "subtitle": "Début de l’évaluation",
+    "title": "Tout d’abord, commençons par faire connaissance.",
+    "form": {
+      "name": {
+        "placeholder": "Votre nom complet"
+      },
+      "role": {
+        "placeholder": "Votre rôle"
+      },
+      "country": {
+        "placeholder": "Sélectionnez votre pays *"
+      },
+      "stakeholderGroup": {
+        "placeholder": "Sélectionnez votre groupe de parties prenantes. *"
+      }
+    },
+    "legal": "Toutes ces informations sont utilisées pour rendre votre expérience plus conviviale. Nous n’utiliserons jamais ces informations à des fins commerciales ou de marketing.",
+    "buttons": {
+      "selectArea": "Sélectionnez une zone.",
+      "selectAreaHelper": "*Champs obligatoires pour continuer"
+    }
+  },
+
+  "selectionArea": {
+    "headertitle": "Très bien, continuons !",
+    "headertitleWithName": "Très bien, <span>{{name}}</span>, continuons !",
+    "start": {
+      "subtitle": "Début de l’évaluation",
+      "title": "Commençons !",
+      "titleWithName": "Commençons <span>{{name}}</span>!"
+    },
+    "progress": {
+      "subtitle": "État d’avancement de l’évaluation",
+      "title": "Quelle zone souhaitez-vous évaluer ensuite ?",
+      "text": "Choisissez une zone pour terminer l’évaluation."
+    },
+    "areas": {
+      "default": {
+        "title": {
+          "start": "Pour commencer l’évaluation :",
+          "progress": "Pour continuer l'évaluation"
+        },
+        "text": "Vous pouvez sélectionner l’une des zones du diagramme pour obtenir plus d’informations à son sujet et choisir de commencer où vous voulez. Vous devez compléter les 6 zones pour terminer l’évaluation."
+      },
+      "peopleWorkforce": {
+        "text": "Cette zone se concentre sur l’éducation, la formation, l’apprentissage sur le tas et les facteurs humains. Elle s’articule autour de l’importance du renforcement des capacités et des offres éducatives à différents niveaux. Elle comprend la formation professionnelle, l’apprentissage social et la formation sur le tas. Personnel et main-d’œuvre consiste à améliorer les compétences de l'ensemble de la population avec des capacités numériques et d'IA - des dimensions souvent ignorées dans une éducation axée sur la technologie.",
+        "duration": "Temps imparti pour finir la zone : environ 5 min."
+      },
+      "dataTechnology": {
+        "text": "Cette zone se concentre sur la technologie, l’interopérabilité, les algorithmes et les modèles. Elle comprend l’ingestion, le stockage et la consommation des données, le partage de la propriété des données, et la validation des données. Elle inclut également l’exactitude des algorithmes et des modèles, la formation et le caractère explicable, ainsi que les normes et l’interopérabilité.",
+        "duration": "Temps imparti pour finir la zone : environ 5 min."
+      },
+      "governanceRegulatory": {
+        "text": "Cette zone se concentre sur les structures et réglementations de gouvernance formelles. Elle englobe le développement de stratégies nationales pertinentes, une évaluation claire des coûts pour la mise en œuvre, la validation clinique et scientifique, les réglementations en matière de respect de la vie privée et la sécurité, la vision de l’innovation, et les politiques réglementaires clés.",
+        "duration": "Temps imparti pour finir la zone : environ 4 min."
+      },
+      "designProcesses": {
+        "text": "Cette zone se concentre sur l’intégration des solutions IA dans les systèmes de santé et les flux de travail cliniques, l’utilisation des modèles et les indicateurs de mesure de la performance, la localisation des solutions et la conception centreé sur l'être humain dans la boucle.",
+        "duration": "Temps imparti pour finir la zone : environ 3 min."
+      },
+      "partnershipStakeholders": {
+        "text": "Cette zone se concentre sur les partenariats efficaces, les initiatives multisectorielles publiques-privées, le prototypage axé sur les objectifs, ainsi que l’engagement approprié des parties prenantes qui va du soutien politique de haut niveau et du soutien de l’industrie aux relations avec les partenaires locaux et les patients.",
+        "duration": "Temps imparti pour finir la zone : environ 1 min."
+      },
+      "businessModels": {
+        "text": "Cette zone se concentre sur les sources de financement, les structures incitatives, la durabilité financière, les modèles de tarification, et les différentes formes de monétisation innovante.",
+        "duration": "Temps imparti pour finir la zone : environ 2 min."
+      }
+    },
+    "saveProgress": "La progression de votre évaluation est enregistrée après chaque zone. Vous pouvez retrouver votre progression sur cette URL:",
+    "buttons": {
+      "start": "Commencer l’évaluation",
+      "endAssessment": "Voir mes résultats"
+    }
+  },
+
+  "question": {
+    "title": "Bienvenue",
+    "titleWithName": "Bienvenue, <span>{{name}}</span>",
+    "subtitle": {
+      "emoji": "Sélectionnez une option",
+      "image": "Sélectionnez le niveau qui s'applique"
+    },
+    "buttons": {
+      "back": "Retour",
+      "next": "Suivant"
+    }
+  },
+
+  "badge": {
+    "badge1": {
+      "headertitle": "Félicitations ! Vous avancez bien !",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> ! Vous avancez bien !"
+    },
+    "badge2": {
+      "headertitle": "Félicitations ! Vous avancez bien !",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> ! Vous avancez bien !"
+    },
+    "badge3": {
+      "headertitle": "Félicitations ! Vous avancez bien !",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> ! Vous avancez bien !"
+    },
+    "badge4": {
+      "headertitle": "Félicitations ! Vous avancez bien !",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> ! Vous avancez bien !"
+    },
+    "badge5": {
+      "headertitle": "Félicitations ! Vous avancez bien !",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> ! Vous avancez bien !"
+    },
+    "badge6": {
+      "headertitle": "Félicitations, vous avez réussi! Vérifiez vos résultats.",
+      "headertitleWithName": "Félicitations, <span>{{name}}</span> vous avez réussi! Vérifiez vos résultats."
+    },
+    "subtitle": "Votre accomplissement",
+    "title": "Vous avez maintenant terminé {{areasCompleted}} zone sur 6!",
+    "title_plural": "Vous avez maintenant terminé {{areasCompleted}} zones sur 6!",
+    "description": "Voici votre score pour cette zone : ",
+    "shareByLink": {
+      "label": "Si vous souhaitez continuer plus tard, revenez sur ce lien"
+    },
+    "buttons": {
+      "next": "Choisir une autre zone",
+      "endAssessment": "Voir mes résultats"
+    }
+  }
+}

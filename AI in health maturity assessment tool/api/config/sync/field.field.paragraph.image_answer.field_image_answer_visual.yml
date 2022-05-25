@@ -1,0 +1,38 @@
+uuid: 9a7ff986-9afb-453d-96ec-ec6327755748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_answer_visual
+    - paragraphs.paragraphs_type.image_answer
+  module:
+    - image
+id: paragraph.image_answer.field_image_answer_visual
+field_name: field_image_answer_visual
+entity_type: paragraph
+bundle: image_answer
+label: Visual
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: answers
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

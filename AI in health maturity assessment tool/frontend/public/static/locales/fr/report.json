@@ -1,0 +1,384 @@
+{
+  "title": "Novartis Foundation | Résultats",
+  "description": "",
+  "url": "https://yourdomain.com/fr/report",
+
+  "header": {
+    "heading": "Félicitations !",
+    "subtitle": "Félicitations !",
+    "title": "Vous avez terminé toute l’évaluation, voici vos résultats.",
+    "description": "Découvrez comment améliorer vos résultats.",
+    "shareButton": "Partager le rapport"
+  },
+  "share": {
+    "title": "Partager le rapport",
+    "form": {
+      "shareByLink": {
+        "label": "Partager le rapport avec un lien"
+      },
+      "shareByEmail": {
+        "label": "Partagez vos résultats par e-mail",
+        "placeholder": "Votre e-mail",
+        "buttons": {
+          "send": "Envoyer",
+          "loading": "Chargement...",
+          "emailSent": "E-mail envoyé !"
+        },
+        "errors": {
+          "filedRequired": "Ce champ est requis.",
+          "emailSentError": "L'e-mail n'a pas été envoyé. Nous avons rencontré une erreur de notre côté."
+        }
+      }
+    }
+  },
+  "scoreArea": {
+    "title": "Score de zone et investissement",
+    "subtitle": "Personnalisation de zone",
+    "creditText": "Investir <strong>{{credits}}</strong> crédits",
+    "investSwitch": {
+      "personal": "Investir moi-même",
+      "auto": "Me montrer le meilleur investissement pour l’impact"
+    },
+    "popup": {
+      "score": {
+        "title": "Comment investirions-nous pour obtenir un impact maximal ?",
+        "text": [
+          "Lorsque vous choisissez d’investir, assurez-vous de répartir vos efforts dans toutes les zones.",
+          "C’est uniquement en investissant uniformément que vous pourrez atteindre le niveau IA suivant sur la courbe de maturité sanitaire."
+        ]
+      },
+      "invest": {
+        "title": "Essayez d’investir",
+        "text": [
+          "Pour avoir un aperçu de ce que pourrait être votre impact si vous décidiez d’investir dans une zone, utilisez les boutons + et - situés à côté de chaque zone.",
+          " Assurez-vous de répartir vos efforts dans toutes les zones. C’est uniquement en investissant uniformément que vous pourrez atteindre le niveau superieur d'IA dans le domaine de la santé."
+        ]
+      }
+    }
+  },
+  "chart": {
+    "label": "Score initial",
+    "score": "score",
+    "ideal": "Seuil de maturité idéal"
+  },
+  "completionBadge": {
+    "title": "Badge d'achèvement",
+    "button": "Télécharger mon badge en .jpg"
+  },
+  "badges": {
+    "title": "Mes badges",
+    "button": "Télécharger tous mes badges"
+  },
+  "recommandationArea": {
+    "title": "Recommandations de zone",
+    "strongest": "Pilier le plus fort",
+    "opportunity": "Pilier d’opportunité",
+    "modal": {
+      "peopleWorkforce": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Renforcer les capacités nationales DSAI (Data Science Artificial Intelligence [intelligence artificielle, IA dans le domaine de la science des données]) et intégrer les solutions IA dans le domaine de la santé.<ul><li>Faire de DSAI une priorité nationale à tous les niveaux des programmes et cursus éducatifs avant le service, dans le domaine de la santé et au-delà.</li><li>Introduire une formation certifiée enrôlée et adaptée aux besoins des professionnels de santé, des gestionnaires de santé et des décideurs politiques. De telles opportunités de formation devrait également viser à prévenir les craintes de perte d’emploi. Introduire des opportunités de bourses d’études pour la santé et les soins axés sur les données, ciblant à la fois les chercheurs en santé et les chercheurs en ingénierie, et potentiellement organisés dans des centres d’excellence (CdE) ou des instituts de recherche dédiés.</li><li>Élaborer une stratégie pour développer, attirer et fidéliser les talents en DSAI et surveiller régulièrement la disponibilité nationale des compétences DSAI, potentiellement par le biais d’un indice statistique annuel.</li><li>Mettre en œuvre des mesures pour augmenter l’alphabétisation numérique du grand public pour soutenir l’utilisation IA, en particulier pour les jeunes et les groupes vulnérables.</li></ul>",
+          "Intégrer des solutions IA dans les flux de travail de santé par le biais d’une gestion appropriée du changement<ul><li>Établir des projets de documents d’orientation pour assurer le déploiement efficace des solutions axées sur l’IA et leur intégration dans les flux de travail et processus du système de santé par le biais d’une gestion adéquate du changement.</li></ul>",
+          "Conception centrée sur l'humain pour l’IA dans le domaine de la santé<ul><li>Intégrer des méthodologies agiles et une conception centrée sur les besoins humain en tant que méthodes transversales dans les flux de travail des systèmes de santé et les offres éducatives.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Établir des priorités en se concentrant sur les besoins et les faiblesses du système de santé qui peuvent être traités ou améliorés en utilisant l’IA. Cette liste prioritaire doit être publiquement disponible et révisée chaque année.",
+              "Co-développer des politiques et des réglementations pour introduire l’IA dans le domaine de la santé, potentiellement avec les responsables, hôpitaux, professionnels de santé, ingénieurs, la société civile et les leaders d’opinion impliqués dans le système de santé.",
+              "Instaurer l’engagement, le soutien et la confiance du public en créant des mécanismes de dialogue sur la valeur des données dans le domaine des soins de santé et des initiatives exploitant l’IA.",
+              "Créer des groupes de travail inter-organisationnels dédiés à l’élaboration des politiques et réglementations.",
+              "Organiser une solide formation DSAI avant l’emploi et en cours d’emploi et définir une stratégie pour développer, attirer et fidéliser les talents.",
+              "Fournir un soutien et un financement politique pour une répartition adéquate des talents et des capacités dans tout le pays."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Participer avec le gouvernement et le secteur privé dans l’établissement de l’ordre du jour, le renforcement des capacités et la planification pour renforcer les talents et les compétences DSAI.",
+              "Soutenir le développement de contenu DSAI dans les cursus et programmes de formation nationaux en faisant appel à des experts ou en offrant des bourses d’études d’intérêt.",
+              "Appuyer les systèmes de santé pour intégrer les solutions IA validées et renforcer les capacités de service DSAI.",
+              "Créer des partenariats publics-privés (PPP) pour effectuer d’autres recherches, valider de nouvelles solutions et/ou preuves afin de potentiellement les mettre en pratique."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Combler les lacunes du secteur public, p. ex., en fournissant des experts en la matière aux PPP ou en apportant un soutien aux formations professionnelles.",
+              "Partager les meilleures pratiques de l’industrie en matière d’adoption technologique, de gouvernance des données et de gestion du changement."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir les droits de l’homme fondamentaux liés à l’IA, tels que le droit à la non-discrimination, l’égalité, la diversité, l’équité, et des droits plus techniques, tels que la propriété des données pour les utilisations secondaires de données.",
+              "Mener des campagnes d’éducation publique pour illustrer les avantages et les risques de l’IA dans le domaine de la santé (p. ex., mettre en évidence les mesures de sécurité et de respect de la vie privée appropriées pour promouvoir l’IA en tant que force de changement positif entraînant, p. ex., de meilleurs résultats en matière de santé ou des systèmes de santé plus efficaces. Convoquer des groupes de travail internationaux pour partager les meilleures pratiques et encourager la collaboration internationale."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Définir les besoins des établissements de santé et les mesures de réussite où l’IA peut avoir le plus grand impact en fonction des besoins sanitaires actuels et futurs.",
+              "Mettre en œuvre la gestion du changement. Meilleures pratiques pour l’adoption de la technologie et rendre opérationnels les processus modifiés, tout en répondant aux préoccupations des prestataires de sante par le biais de l’éducation et de la participation. Les hôpitaux universitaires doivent jouer un rôle actif dans la formation continue sur les données et sur la santé ainsi que les soins axés sur l’IA.",
+              "Embaucher ou former des gestionnaires de la conception agile et centrée sur l'humain et leur donner les moyens d’optimiser les flux de travail opérationnels de santé. Faciliter leur participation aux PPP et aux initiatives publiques."
+            ]
+          }
+        }
+      },
+      "dataTechnology": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Définir des objectifs nationaux pour l’innovation IA se concentrant sur les fardeaux sanitaires prioritaires et les lacunes du système de santé. Exécuter la stratégie, y compris une stratégie claire sur les données de santé, et déployer les ressources nécessaires pour atteindre ces objectifs.<ul><li>Les ressources doivent inclure des composants physiques pour l’IA (p. ex., ordinateur, matériel et installations réseau, connectivité), des outils de science des données, des plateformes et des composants réseau, un débit de données élevé, et des moyens d’autoriser l’accès en temps réel.</li><li>La stratégie en matière de données doit prévoir les processus nécessaires pour la numérisation et l’intégrité des données, les ensembles de formation et de validation, et les ensembles de données de test.</li></ul> Elle doit également promouvoir les normes de données ouvertes, les ensembles de données publics et les couches de sécurité pour le partage des données et le stockage (sur site ou dans le cloud). Les accords-cadres de partage des données, de collaboration en matière de données, et de partage des données doivent être traités en priorité pour les besoins de santé publique tout en protégeant strictement la vie privée (qu’il s’agisse de partage ad hoc, d’accords-cadres ou de collaborations en matière de données, de solidarité/d’altruisme en matière de données, ou d’écosystèmes de marchés de données).<ul><li>La stratégie de données doit également promouvoir une bonne gouvernance des données, une validation systématique des données, et des analyses avancées parmi diverses applications du système de santé.</li></ul>",
+          "Co-créer et mettre en œuvre des normes faisant autorité en matière d’interopérabilité (technique, structurelle, sémantique, organisationnelle) et élaborer des directives axées sur le consentement pour leur mise en œuvre appropriée dans le domaine des soins de santé.",
+          "Rédiger des projets de législation sur les normes de sécurité et de respect de la vie privée ainsi que mettre en œuvre les meilleures pratiques dans toute la chaîne de valeur des soins de santé."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Investir dans une infrastructure appropriée, telle que des capacités robustes de connectivité et de stockage (sur site ou dans le cloud) pour les données de santé et leurs couches de sécurité.",
+              "Rendre les données non sensibles accessibles au public et les données sensibles conformes au respect de la vie privée et accessibles en toute sécurité pour les acteurs accrédités (p. ex., en priorité en matière de santé publique et la recherche fondamentale), tout en encourageant les accords de partage de cadre pour l’innovation rationalisée.",
+              "Rédiger des projets de législation pour les normes d’interopérabilité et réglementer les exigences d’explicabilité tout en dialoguant largement avec le public pour promouvoir les politiques sur l’IA éthique (p. ex., les organisations de patients)."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir, financer et s’engager dans des initiatives IA qui mettent en application les normes de données ouvertes ou participent à des collaborations en matière de données.",
+              "Favoriser les discussions du forum public sur les stratégies et la gestion des données, l’interopérabilité, le respect de la vie privée et l’éthique, et l’importance de l’explicabilité dans le domaine de la santé.",
+              "Promouvoir les échanges via des groupes de travail technologiques internationaux et des efforts dirigés par le gouvernement."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Diriger les efforts IA pour les bonnes solutions.",
+              "Produire des indicateurs de mesure de la consommation des données matures et RWE, y compris des opportunités d’apprentissage fédérées et des référentiels de données sélectionnées ouvertes concernant les avantages obtenus en matière de santé publique pour illustrer l’impact positif de l’IA sur les résultats de santé et les améliorations du système de santé.",
+              "Mettre en œuvre les meilleures pratiques de l’industrie en matière de normes, d’interopérabilité et d’explicabilité, conformément aux directives publiques."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir les normes et pratiques sur les données ouvertes et placer l’explicabilité et l’interopérabilité au centre d’une bonne gouvernance des données et de la technologie.",
+              "Défendre la mise en place de pratiques strictes en matière de protection de la vie privée, de sécurité, et de protection des données.",
+              "Les organisations de patients doivent participer activement aux discussions sur les politiques."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Collaborer avec les parties prenantes sur la mise au point une solide politique de sécurité et de respect de la vie privée et mettre en œuvre des couches épaisses de sécurité et de respect de la vie privée pour cultiver la confiance du public.",
+              "Définir des processus clairs pour identifier les patients, faciliter et simplifier l’engagement des patients et l’accès de ceux-ci aux informations de santé, et faire mieux comprendre aux patients les avantages et les risques relatifs aux données et à l’IA dans le domaine de la santé.",
+              "Créer une base de données complète et un tableau de bord des informations sur les patients comprenant les données cliniques, les déterminants sociaux et les données sur les demandes de remboursement sous une forme intégrée."
+            ]
+          }
+        }
+      },
+      "governanceRegulatory": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Définir une feuille de route de mise en œuvre nationale pour progresser sur la courbe de maturité de l’IA dans le domaine de la santé. Cela doit inclure toutes les parties prenantes concernées, décrire la gouvernance, y compris les rôles et responsabilités, et encourager à la fois les actions du gouvernement et celles du secteur privé.",
+          "Élaborer des politiques, des directives et des livres blancs clairs pour renforcer une solide gestion des données et de l’IA, établir des mécanismes de redevabilité, et défendre les données en tant qu’actif de santé publique.<ul><li>Elles doivent inclure des politiques pour la surveillance et l’audit continus de l’IA dans les solutions de santé, ainsi que des politiques pour l’IP (Internet Protocol [protocole Internet]) et l'open innovation concernant l’IA dans le domaine de la santé.</li><li>Définir les normes et politiques de validation clinique afin d’assurer l’efficacité et la sécurité de l’IA dans le domaine de la santé (pour l’utilisation prévue). Piloter la validation scientifique par le biais d’académies médicales et technologiques, de sociétés savantes, et d’organes professionnels faisant autorité.</li></ul>",
+          "Intégrer les droits fondamentaux (p. ex., droits à la non-discrimination et à l’égalité), les restrictions réglementaires (p. ex., RGPD [règlement général sur la protection des données], HIPAA (Health Insurance Portability and Accountability Act [loi sur la portabilité et la redevabilité en assurance santé]) et le respect de la vie privée dans les cadres législatifs et la gouvernance du système de santé.<ul><li>Formaliser les processus et les canaux pour montrer comment les données sont utilisées et consultées, en construisant un solide appareil de gouvernance du respect de la vie privée et de la sécurité.</li><li>Introduire des cadres législatifs basés sur l’éthique et les droits, y compris pour les groupes vulnérables.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Intégrer l’IA gouvernementale dans la stratégie et la feuille de route de la santé et impliquer les parties prenantes et les experts dans le processus.",
+              "Demander aux organes de réglementation d’établir une réglementation claire pour l’accès au marché et la validation clinique des solutions basées sur l’IA, de fournir des directives détaillées pour les soumissions basées sur l’IA et les procédures accélérées, et collaborer largement avec les parties prenantes externes pour l’échange de connaissances.",
+              "Promulguer de robustes protections de la vie privée et de la sécurité et détailler les implications de l’IA sur les droits fondamentaux.",
+              "Encourager la mise en place de cadres politiques en faveur de l'open innovation ou conjointe en matière d’IA dans le domaine de la santé, et de modèles de coopération internationale pour définir les politiques sur l’IA, la santé et l’enseignement."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Soutenir le gouvernement dans la création d’une IA nationale dans le cadre des stratégies de santé par le biais de collaborations internationales, de PPP, de groupes de travail et d’autres initiatives.",
+              "Collaborer avec le gouvernement pour promouvoir avec force les droits de l’homme et la sécurité en lien avec l’IA dans le domaine de la santé.",
+              "Organiser ou participer à des forums afin de co-définir l’IA pour la gouvernance des données et façonner les initiatives."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Les partenaires de l’industrie des soins de santé et de la technologie peuvent collaborer avec les gouvernements pour combler les lacunes grâce au transfert d’expertiseou de connaissances aux fins d’apporter un soutien à l’IA en tant que bien public.",
+              "Travailler en étroite collaboration avec les régulateurs pour rationaliser les processus d’examen et les soumissions sur le marché.Mettre en œuvre des flux de travail et des processus clairs pour garantir le respect des droits de l’homme et la conformité aux restrictions réglementaires et à l’adoption des meilleures pratiques."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir un leadership robuste en faveur de l’IA dans le domaine de la santé afin d’atteindre les objectifs de santé publique et de l’UHC.",
+              "Établir des organes de surveillance pour la gouvernance et la conformité réglementaire en matière d’IA dans le domaine de la santé.",
+              "Encourager l’adoption et la mise en application continue des droits fondamentaux pour la mise en œuvre réelle de l’IA dans le domaine de la santé et pour la recherche fondamentale."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Fournir des experts qui peuvent aider à la rédaction et à l’amélioration continue de l’IA nationale dans le cadre de la stratégie de santé et de la feuille de route de mise en œuvre.",
+              "Les sociétés savantes et académies médicales et technologiques cultivent le consensus et la validité concernant la validation scientifique et clinique des solutions IA.",
+              "Faire des droits et du respect de la vie privée la base des données et de la stratégie d’analyse des organisations de santé pour cultiver la confiance."
+            ]
+          }
+        }
+      },
+      "designProcesses": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Système de santé et intégration des flux de travail<ul><li>Évaluer les besoins et les opportunités pour mettre en œuvre les solutions IA capables de renforcer les systèmes de santé, telles que l’optimisation des processus opérationnels, la lecture d’un diagnostic plus précis et plus rapide, ou l’obtention d’autres solutions qui peuvent améliorer la qualité des soins ou réduire la charge de travail des professionnels de santé.</li><li>Établir la conception centrée sur l'humain et la localisation comme pratique standard pour l’IA dans le développement, le déploiement ainsi que l’amélioration continue des solutions de santé.</li><li>Définir les indicateurs de performance clé (KPI) pour surveiller et évaluer la mise à l’échelle des solutions IA à différents niveaux et cas d’utilisation en matière de santé et de soins, et pour suivre les modèles IA actifs et non actifs dans l’ensemble du système de santé, tout en quantifiant également leur impact sur les résultats, l’efficacité et autres indicateurs de mesure relevant du domaine de la santé.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Rédiger et mettre continuellement à jour les directives faisant autorité sur l’intégration de l’IA dans les processus du système de santé ; collaborer avec les leaders du système de santé pour définir les meilleures pratiques, les protocoles et les flux de travail.",
+              "Soutenir les initiatives publiques qui se concentrent sur la conception centrée sur l’être humain dans les données et les soins de santé basés sur l’IA.",
+              "Créer un poste pour la conception centrée sur l'humain au sein des Ministères de la Santé et des Technologies de l’information et de la communication (TIC).",
+              "Définir des ICP pour surveiller la mise à l’échelle des solutions IA et suivre les modèles actifs et inactifs."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Fournir un système de santé, une gouvernance ou une expertise en matière de politique aux leaders et responsables nationaux et locaux du système de santé.",
+              "Co-développer des principes IA centrés sur l'humain.",
+              "Les groupes de patients doivent chercher à participer à la conception IA dans le domaine de la santé."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Travailler en étroite collaboration avec les organisations de santé pour s’assurer que l’IA est conçue pour une intégration adéquate dans le système de santé.",
+              "Fournir des solutions intégrées pour le suivi des modèles et de la performance compatibles avec les normes internationales les plus élevées (Highest International Standards, HIS).",
+              "Encourager l’innovation centrée sur l'humain, p. ex., par le biais d’une plateforme d’innovation, d’un campus d’innovation, ou d’une semaine d’innovation."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Nouer de solides relations avec les parties prenantes locales et faire participer celles-ci au développement commercial et à la conception de solutions des innovateurs.",
+              "Présenter les preuves de l’impact positif de l’IA sur la santé et collaborer avec les parties prenantes pour aider les systèmes de santé à intégrer l’IA."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Collaborer activement avec les innovateurs, les développeurs, les groupes de patients et les leaders de l’industrie pour contribuer à développer les solutions IA, rationalisant ainsi leur adoption dans les domaines des soins cliniques/de santé ; aider les agences gouvernementales à rédiger des directives faisant autorité pour l’intégration de l’IA dans le système de santé.",
+              "Organiser des initiatives ou participer à des initiatives sur la conception centrée sur l'humain et souligner combien il est important de les utiliser et de les respecter pour obtenir de meilleurs résultats en lien avec les patients.",
+              "Développer des capacités et des compétences, et investir en la matière, pour suivre les modèles IA au sein d’un établissement de santé et mesurer les résultats et autres ICP obtenus en matière de santé qui alimentent un cycle d’examen et d’amélioration continu."
+            ]
+          }
+        }
+      },
+      "partnershipStakeholders": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Les ministères et les leaders de l’industrie donnent la priorité à l’IA et soutiennent celle-ci en tant qu’outil pour améliorer la prestation des soins de santé et renforcer les systèmes de santé.",
+          "Les PPP se concentrent sur l’objectif public de l’amélioration de la santé et coordonnent les efforts pour éviter la fragmentation, tout en minimisant la complexité et la bureaucratie des opérations de partenariat.",
+          "Créer un organisme-cadre de l’innovation pour contrer la fragmentation, tel qu’un parc ou un cadre d’innovation aligné sur les priorités de santé publique et les intérêts des donateurs. Mettre également en place un forum pour les discussions et la coordination des parties prenantes."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Les ministères au plus haut niveau soutiennent officiellement le traitement prioritaire des technologies IA pour améliorer les soins de santé et les systèmes de santé, et fournissent des ressources humaines, financières, en matière d’experts et autres ressources pertinentes.",
+              "Offrir un cadre et/ou une plateforme centralisé(e)s, révisé(e)s et approuvés par le gouvernement pour instaurer des partenariats plus efficaces.",
+              "Soutenir l’établissement d’un parc d’innovation soutenu par le gouvernement."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Présenter l’impact transformationnel de l’IA en situation réelle sur les systèmes de santé et les résultats obtenus (lobbying) pour favoriser un puissant soutien politique et de la part des leaders.",
+              "Élaborer des rapports ou directives détaillé(e)s sur les stratégies de partenariat efficaces à l’ère de l’IA et un lieu de travail agile.",
+              "Les ONGI, les organisations de patients et la société civile participent aux initiatives visant à bénéficier globalement à la santé par le biais de commissions d’experts ou de la science des citoyens."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Les leaders de l’industrie et les innovateurs s’appliquent à promouvoir le rôle de l’IA dans le domaine des soins de santé et participent à des événements publics, tels que des conférences ou discussions sur l’innovation et la technologie.",
+              "Fournir un aperçu ciblé des objectifs stratégiques et du rôle global des partenariats pour obtenir de meilleurs résultats en matière de santé ; participer à des événements et conférences sur l’innovation ainsi qu’à des PPP.",
+              "Soutenir les initiatives pilotes et fournir une assistance (en nature) pour les mettre à l’échelle."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir les avantages sociétaux et sanitaires positifs des parcs d’innovation, des grands défis et des groupes de recherche.",
+              "Agir comme catalyseur pour intégrer les solutions IA dans le domaine de la santé en rassemblant différents groupes d’intérêt et parties prenantes."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Établir un rôle formel pour l’engagement des partenaires sous la supervision directe du leadership exécutif des principaux établissements de santé.",
+              "Collaborer directement avec les agences gouvernementales pour mettre en évidence les principaux points faibles du système de santé et le potentiel de l’IA pour y remédier, ainsi que les expériences et les leçons apprises.",
+              "S’inscrire uniquement aux pilotes qui réussissent à un test élémentaire sur la mise à l’échelle et au stress."
+            ]
+          }
+        }
+      },
+      "businessModels": {
+        "title": "Recommandations générales pour cette zone",
+        "list": [
+          "Financement<ul><li>Créer, simplifier et promouvoir des structures incitatives pour les solutions IA qui répondent aux priorités de santé publique ou renforcent le système de santé, telles que les avantages fiscaux, l’immunité fiscale, les subventions gouvernementales, les avantages en nature et autres avantages.</li><li>Encourager les modèles commerciaux durables pour que la mise à l’échelle de l’IA concernant les produits et services de santé puisse être soutenue par des investissements nationaux et du secteur privé.</li><li>Mettre en œuvre une budgétisation agile pour le travail gouvernemental lié à l’IA dans le domaine de la santé.</li><li>Cultiver un vaste réseau actif de donateurs et de bailleurs de fonds facilement accessible aux innovateurs et aux start-up.</li><li>- Explorer l’utilisation de mécanismes de financement innovants pour les initiatives ayant un impact social, telle que l’IA dans le domaine de la santé. Cela peut apporter de nouvelles sources de capital à l’IA et accroître les mesures incitatives pour surveiller les résultats et l’impact de l’IA dans le cadre des solutions de santé.</li><li>Les établissements et universités de recherche publique doivent collaborer pour commercialiser la recherche et les droits de propriété intellectuelle (PI) acquis.</li><li>Développer et soutenir des stratégies de monétisation durables qui sont alignées sur les priorités dans le domaine de la santé publique et qui sont également conformes au respect de la vie privée (p. ex., données consommables, monétisation des résultats et des informations, capacités de mise à l’échelle et produits faisant l’objet d’une demande ou d’un octroi de licence, etc.).</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Établir de solides relations et encourager les investissements des donateurs en faveur de l’IA nationale pour innover dans le domaine de la santé.",
+              "Cofinancer l’établissement d’un programme national IA pour mettre en place un programme de recherche et développement (R&D) ou des PPP dans le domaine de la santé.",
+              "Introduire ou soutenir un financement innovant pour l’IA dans le domaine de la santé, p. ex., des obligations à impact social."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Financer ou se mettre en rapport avec les donateurs pour intégrer l’IA dans les projets de santé qui répondent à des critères tels que l’impact sur le système de santé, les résultats des patients, l’innovation et les données ouvertes, etc.",
+              "Publier un leadership éclairé et/ou des directives sur les pratiques équitables et conformes au respect de la vie privée en matière de données et de monétisation des informations."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Les start-up, l’industrie et les donateurs collaborent sur de nouveaux modèles commerciaux durables répondant aux défis de la santé publique et de la santé mondiale.",
+              "Favoriser les efforts visant à mettre à l’échelle les modèles commerciaux à impact social qui exploitent l’IA dans le domaine de la santé publique.",
+              "Les leaders de l’industrie offrent de grands défis, des prix, des paiements en nature (p. ex., expertise) aux innovateurs émergents."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Promouvoir des pratiques équitables et conformes au respect de la vie privée en matière de données et de monétisation des informations.",
+              "Traiter les priorités en matière de santé publique et mettre en œuvre les meilleures pratiques pour promouvoir les droits des patients."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Appel à l’action pour les groupes de parties prenantes",
+            "list": [
+              "Les établissements de santé accordent des avantages d’accès (p. ex., données, accès des patients, recherche, etc.) à l’IA aux promoteurs de la santé qui sont susceptibles d’avoir un impact positif important sur l’organisation et le système de santé.",
+              "Les établissements de santé participent aux réseaux des établissements de santé et encouragent l’adoption de solutions fondées sur des données probantes ayant des impacts positifs avérés."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "email": {
+    "subject": "Maturité de l'IA dans le domaine de la santé – Vos résultats",
+    "thankYou": "Félicitations, vous avez complété l'évaluation sur la maturité de l'IA dans le domaine de la santé !",
+    "now": "Conservez cet e-mail pour revenir à tout moment sur vos résultats. Partagez vos résultats avec un collègue ou un partenaire en utilisant le lien ci-dessous et invitez-les à se tester et passer l'évaluation.",
+    "see": "Voir mes résultats",
+    "copy": "Ou copiez le lien ci-dessous:",
+    "forgot": "Vous avez oublié de télécharger vos badges?",
+    "comeBack": "Vous pouvez toujours revenir à votre page de résultats. <br /> Si vous partagez vos badges sur les réseaux sociaux, nous vous recommandons d'utiliser les hashtags suivants:",
+    "TermsOfUse": "Les recommandations décrites dans le présent document ont été élaborées par la Fondation Novartis et/ou ses partenaires dans le cadre du groupe de travail de la Commission Broadband sur l'IA dans le domaine de la santé. Avant toute mise en œuvre locale, les parties intéressées doivent s'assurer du respect de toutes les lois et réglementations applicables, y compris les codes industriels locaux et les politiques institutionnelles. Les liens et le contenu peuvent faire l'objet de modifications sans préavis. Les <a href=\"https://www.yourdomain.com.org/terms-of-use\">conditions d'utilisation</a> de la Fondation Novartis s'appliquent."
+  },
+  "footer": "Les recommandations décrites dans le présent document ont été élaborées par la Fondation Novartis et/ou ses partenaires dans le cadre du groupe de travail de la Commission Broadband sur l'IA dans le domaine de la santé. Avant toute mise en œuvre locale, les parties intéressées doivent s'assurer du respect de toutes les lois et réglementations applicables, y compris les codes industriels locaux et les politiques institutionnelles. Les liens et le contenu peuvent faire l'objet de modifications sans préavis. Les <a href=\"https://www.yourdomain.com.org/terms-of-use\">conditions d'utilisation</a> de la Fondation Novartis s'appliquent."
+}

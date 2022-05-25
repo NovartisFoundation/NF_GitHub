@@ -1,0 +1,22 @@
+uuid: 085ee287-a15d-412c-8c27-d0a4282dbabb
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_question
+id: paragraph.image_question.status
+field_name: status
+entity_type: paragraph
+bundle: image_question
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

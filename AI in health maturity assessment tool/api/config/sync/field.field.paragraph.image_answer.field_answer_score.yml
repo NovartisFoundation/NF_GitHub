@@ -1,0 +1,23 @@
+uuid: 07913c7f-637e-4a98-9777-cdab642a763e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer_score
+    - paragraphs.paragraphs_type.image_answer
+id: paragraph.image_answer.field_answer_score
+field_name: field_answer_score
+entity_type: paragraph
+bundle: image_answer
+label: Score
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

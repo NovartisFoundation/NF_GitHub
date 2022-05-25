@@ -1,0 +1,17 @@
+{
+	"title": "Novartis Foundation | Login",
+	"description": "",
+	"url":"https://yourdomain.com/admin/login",
+
+	"form": {
+		"username": "Username",
+		"password": "Password",
+		"buttons": {
+			"submit": "Login"
+		}
+	},
+	"errors": {
+		"mandatory": "User name and password are mandatory fields.",
+		"incorrect": "The username or password is not correct."
+	}
+}

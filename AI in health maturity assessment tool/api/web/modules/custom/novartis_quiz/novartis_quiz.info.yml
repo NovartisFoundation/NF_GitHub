@@ -1,0 +1,5 @@
+name: 'Novartis quiz'
+type: module
+description: 'Provides Area and Question entities and related API endpoints'
+core_version_requirement: ^8.8 || ^9
+package: 'Novartis'

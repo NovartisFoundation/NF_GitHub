@@ -1,0 +1,21 @@
+uuid: a56a59e8-97dd-4deb-b82d-036341d60fcd
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: quiz_session.field_quiz_session_token
+field_name: field_quiz_session_token
+entity_type: quiz_session
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

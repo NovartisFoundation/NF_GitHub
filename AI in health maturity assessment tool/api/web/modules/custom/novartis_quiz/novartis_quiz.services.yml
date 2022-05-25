@@ -1,0 +1,18 @@
+services:
+  novartis_quiz.area_normalizer:
+    class: Drupal\novartis_quiz\Normalizer\AreaNormalizer
+    arguments: [ '@entity_type.manager', '@entity_type.repository', '@entity_field.manager' ]
+    tags:
+      - { name: normalizer, priority: 2 }
+
+  novartis_quiz.quiz_session_normalizer:
+    class: Drupal\novartis_quiz\Normalizer\QuizSessionNormalizer
+    arguments: [ '@entity_type.manager', '@entity_type.repository', '@entity_field.manager' ]
+    tags:
+      - { name: normalizer, priority: 2 }
+
+  novartis_quiz.session_manager:
+    class: Drupal\novartis_quiz\Service\QuizSessionManager
+
+  novartis_quiz.dashboard_manager:
+    class: Drupal\novartis_quiz\Service\DashboardManager

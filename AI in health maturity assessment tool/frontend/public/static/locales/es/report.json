@@ -1,0 +1,388 @@
+{
+  "title": "Novartis Foundation | Resultados",
+  "description": "",
+  "url": "https://yourdomain.com/es/report",
+
+  "header": {
+    "heading": "¡Enhorabuena!",
+    "subtitle": "¡Enhorabuena!",
+    "title": "Ha completado toda la evaluación, estos son sus resultados.",
+    "description": "Vea cómo puede mejorar: ",
+    "shareButton": "Compartir el informe"
+  },
+  "share": {
+    "title": "Compartir el informe",
+    "form": {
+      "shareByLink": {
+        "label": "Comparta sus resultados como un enlace"
+      },
+      "shareByEmail": {
+        "label": "Comparta sus resultados por correo electrónico",
+        "placeholder": "Su correo electrónico",
+        "buttons": {
+          "send": "Enviar",
+          "loading": "Cargando...",
+          "emailSent": "¡Email enviado!"
+        },
+        "errors": {
+          "filedRequired": "Este campo es requerido.",
+          "emailSentError": "No se envió el correo electrónico. Encontramos un error de nuestro lado."
+        }
+      }
+    }
+  },
+  "investSwitch": {
+    "personal": "Try investing myself",
+    "auto": "Show me the best investment for impact"
+  },
+  "scoreArea": {
+    "title": "Área de puntuación e inversión",
+    "subtitle": "Personalización de área",
+    "creditText": "Invertir <strong>{{credits}}</strong> creditos",
+    "investSwitch": {
+      "personal": "Intentar invertir yo mismo",
+      "auto": "Mostrarme la mejor inversión para el impacto"
+    },
+    "popup": {
+      "score": {
+        "title": "¿Cómo invertiríamos para lograr el máximo impacto?",
+        "text": [
+          "Cuando decida invertir, asegúrese de repartir su esfuerzo entre todas las áreas.",
+          "Solo invirtiendo de forma equitativa alcanzará el siguiente nivel de asimilación de la IA en la salud."
+        ]
+      },
+      "invest": {
+        "title": "Intente invertir",
+        "text": [
+          "Para tener una idea general de cuál podría ser su impacto si decidiera invertir en un área especifica, utilice los botones + e - junto a cada área.",
+          "Asegúrese de repartir sus esfuerzos de forma homogénea entre todas las áreas. Sólo invirtiendo de manera uniforme alcanzará el siguiente nivel de madurez de la IA en la salud."
+        ]
+      }
+    }
+  },
+  "chart": {
+    "label": "Puntaje inicial",
+    "score": "puntaje",
+    "ideal": "Umbral de asimilación ideal"
+  },
+  "completionBadge":{
+    "title": "Insignia de finalización",
+    "button": "Descargar mi insignia en .jpg"
+  },
+  "badges": {
+    "title": "Mis insignias",
+    "button": "Transferir todos os meus crachás"
+  },
+  "recommandationArea": {
+    "title": "Recomendaciones de área ",
+    "strongest": "El pilar más sólido",
+    "opportunity": "El pilar de la oportunidad",
+    "modal": {
+      "peopleWorkforce": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Reforzar las capacidades nacionales de DSAI e integrar soluciones de IA en la salud<ul><li>Hacer de la DSAI una prioridad nacional en todos los niveles de programas y planes de estudios educativos previos al servicio, en la sanidad y más allá</li><li>Presentar formación en servicio certificada y adaptada a las necesidades de profesionales sanitarios, gestores sanitarios y legisladores Estas oportunidades de formación también deben intentar prevenir el miedo a la pérdida de empleo. Introducir oportunidades de becas para la atención sanitaria basada en datos, dirigidas tanto a académicos del ámbito de la salud como de la ingeniería, y potencialmente organizados en centros de excelencia o institutos de investigación especializados</li><li>Desarrollar una estrategia para desarrollar, atraer y retener talento en DSAI y supervisar la disponibilidad nacional de las aptitudes de DSAI de forma regular, potencialmente a través de un índice estadístico anual</li><li>Implementar medidas para aumentar la alfabetización digital de la población general para apoyar el uso de la IA, especialmente para jóvenes y grupos vulnerables</li></ul>",
+          "Integrar soluciones de IA en flujos de trabajo de salud a través de una gestión de cambios adecuada<ul><li>Orientación indicativa para un despliegue eficaz de soluciones impulsadas por IA y su integración en los flujos de trabajo y procesos del sistema sanitario a través de una gestión eficaz del cambio</li></ul>",
+          "Diseño centrado en el ser humano para la IA en la salud<ul><li>Integrar metodologías ágiles y el diseño centrado en el ser humano como métodos transversales en los flujos de trabajo del sistema sanitario y las ofertas formativas</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Establecer prioridades centrándose en las necesidades del sistema sanitario y las vulnerabilidades que se puedan abordar o mejorar con la ayuda de la IA Esta lista de prioridades debe estar disponible públicamente y revisarse anualmente.",
+              "Desarrollar conjuntamente políticas y normativas para la IA en la sanidad, potencialmente con gerentes de sistemas sanitarios, hospitales, profesionales sanitarios, ingenieros, sociedad civil y líderes de pensamiento",
+              "Establecer el compromiso público, el apoyo y la confianza creando mecanismos de diálogo sobre el valor de los datos para la atención sanitaria y las iniciativas que aprovechen la IA",
+              "Crear grupos de trabajo interorganizacionales dedicados a redactar las políticas y normativas",
+              "Organizar una sólida formación DSAI previa e in situ y definir una estrategia para desarrollar, atraer y retener el talento",
+              "Proporcionar apoyo político y financiación para una distribución adecuada del talento y de capacidades en todo el país"
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Participar con el Gobierno y el sector privado en el establecimiento de programas, el desarrollo de capacidades y la planificación para fortalecer el talento y las aptitudes de DSAI",
+              "Respaldar el desarrollo de contenido de DSAI en programas de formación y planes de estudios nacionales mediante la contribución a la experiencia u ofertas de becas de interés",
+              "Apoyar los sistemas sanitarios para que integren soluciones de IA validadas y fortalezcan las capacidades de servicio DSAI",
+              "Participar en colaboraciones público-privadas para más investigación, validación o traducción de nuevas soluciones o pruebas a la práctica"
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Complementar las lagunas del sector público, p. ej., proporcionando expertos en la materia a diversas colaboraciones público-privadas o proporcionando apoyo para formaciones profesionales",
+              "Compartir las mejores prácticas del sector para la adopción de tecnología, la gobernanza de datos y la gestión de cambios"
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover los derechos humanos básicos relacionados con la IA, como el derecho a la no discriminación, la igualdad, la diversidad, la justicia y más derechos técnicos, como la propiedad de los datos para usos secundarios de los datos",
+              "Impulsar campañas de educación pública para ilustrar los beneficios y riesgos de la IA en la salud (p. ej., destacar medidas de seguridad y privacidad adecuadas para promover la IA como una fuerza para un cambio positivo, como mejores resultados de salud o sistemas sanitarios más eficientes Reunir a grupos de trabajo internacionales para compartir las mejores prácticas y fomentar la colaboración internacional"
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Definir las necesidades y medidas de éxito de las organizaciones sanitarias en las que la IA pueda tener el mayor impacto en función de las necesidades sanitarias actuales y futuras",
+              "Implementar la gestión de cambios Buenas prácticas para la adopción de tecnología y la puesta en funcionamiento de procesos modificados, al tiempo que se abordan las preocupaciones de los trabajadores sanitarios a través de la educación y la participación Los hospitales universitarios deben desempeñar un papel activo en la formación continua sobre los datos y la atención sanitaria impulsada por la IA.",
+              "Contratar o formar a los administradores en un diseño ágil y centrado en el ser humano, y capacitarlos para optimizar los flujos de trabajo operativos en materia de salud Facilitar su participación en colaboraciones público-privadas e iniciativas públicas"
+            ]
+          }
+        }
+      },
+      "dataTechnology": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Definir objetivos nacionales para que la innovación en IA se centre en las cargas de salud prioritarias y las lagunas del sistema sanitario Ejecutar la estrategia, incluida una estrategia de datos de salud clara, e implementar los recursos para alcanzar estos objetivos<ul><li>Los recursos deben incluir componentes físicos para IA (p ej., ordenador, hardware e instalaciones de red, conectividad), herramientas de ciencia de datos, plataformas y componentes de red, alto rendimiento de datos y formas de permitir el acceso en tiempo real.</li><li>La estrategia de datos debe prever los procesos necesarios para la digitalización y la integridad de los datos, los conjuntos de formación y validación, así como los conjuntos de datos de prueba. También debe promover estándares de datos abiertos, conjuntos de datos públicos y capas de seguridad para el intercambio de datos y el almacenamiento (in situ o en la nube). Debe priorizarse el intercambio de datos, las colaboraciones de datos y los acuerdos marco de intercambio de datos para necesidades de salud pública al tiempo que se protege estrictamente la privacidad (tanto si se trata de un intercambio puntual, como de acuerdos marco o ecosistemas de colaboraciones de datos, solidaridad/altruismo de datos o de mercado de datos).</li><li>La estrategia de datos también debe promover una buena gobernanza de datos, validación sistemática de datos y análisis avanzados en diversas aplicaciones de sistemas sanitarios.</li></ul>",
+          "Crear conjuntamente e implementar estándares ejecutivos para la interoperabilidad (técnica, estructural, semántica, organizativa) y redactar directrices basadas en el consentimiento para su adecuada implementación en el sector sanitario",
+          "Elaborar un proyecto de legislación sobre normas de seguridad y privacidad e implementar las mejores prácticas en toda la cadena de valor de la atención sanitaria"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Invertir en una infraestructura adecuada, como conectividad y capacidades de almacenamiento robustas (in situ o en la nube) para datos de salud y sus capas de seguridad",
+              "Hacer que los datos no sensibles estén disponibles públicamente y que cumplan con la privacidad de los datos confidenciales y sean accesibles de forma segura para actores acreditados (p. ej., para las prioridades de salud pública y la investigación básica), a la vez que se promueven acuerdos marco de intercambio para una innovación optimizada",
+              "Redactar un borrador de la legislación para los estándares de interoperabilidad y regular los requisitos de capacidad explicativa al tiempo que se interpela ampliamente al público para promover políticas sobre IA ética (p. ej., organizaciones de pacientes)"
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover, financiar y participar en iniciativas de IA que implementen estándares de datos abiertos o participen en colaboraciones de datos",
+              "Fomentar debates en foros públicos sobre estrategias de datos y administración, interoperabilidad, privacidad y ética, y la importancia de la capacidad explicativa en la salud",
+              "Promover intercambios a través de grupos de trabajo tecnológicos internacionales y esfuerzos dirigidos por el Gobierno"
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Liderar los esfuerzos en IA para soluciones de buena calidad",
+              "Producir métricas de consumo de datos maduros y pruebas reales, incluidas oportunidades de aprendizaje federado y repositorios de datos abiertos para beneficios de salud pública de cara a ilustrar el impacto positivo de la IA en los resultados de salud y las mejoras del sistema sanitario",
+              "Implementar las mejores prácticas del sector para estándares, interoperabilidad y capacidad explicativa de acuerdo con las directrices públicas."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover estándares y prácticas de datos abiertos y poner la capacidad explicativa y la interoperabilidad en el centro de una buena gobernanza de datos y tecnología",
+              "Defender una robusta privacidad, seguridad y protección de datos",
+              "Participación activa de las organizaciones de pacientes en debates sobre políticas"
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Colaborar con las partes interesadas en una robusta política de seguridad y privacidad e implementar sólidas capas de seguridad y privacidad para cultivar la confianza pública",
+              "Definir procesos claros para la identificación de pacientes, facilitar la implicación de los pacientes y el acceso de los mismos a la información sanitaria, así como mejorar la comprensión de los beneficios y riesgos de los datos y la IA en la salud",
+              "Construir una base de datos completa y un panel de información de pacientes con datos integrados sobre determinantes clínicos, sociales y reclamacione"
+            ]
+          }
+        }
+      },
+      "governanceRegulatory": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Definir una hoja de ruta de implementación nacional para progresar en la curva de asimilación de la IA en salud Esto debe incluir a todas las partes interesadas relevantes, describir la gobernanza, incluidas las funciones y responsabilidades, y fomentar tanto las acciones gubernamentales como las del sector privado.",
+          "Desarrollar políticas, directrices y documentos técnicos claros para potenciar unos datos sólidos y una firme administración de la IA, establecer mecanismos de responsabilidad y defender los datos como un activo de salud pública.<ul><li>Estas deben incluir políticas para la supervisión y auditoría continuas de la IA en soluciones sanitarias, así como políticas para la PI y la innovación abierta de la IA en la salud.</li><li>Definir normas y políticas de validación clínica para la eficacia y seguridad de la IA en la salud (para el uso previsto) Impulsar la validación científica a través de academias médicas y tecnológicas, sociedades y organismos profesionales con autoridad ejecutiva</li></ul>",
+          "Integrar los derechos fundamentales (p. ej., derechos a la no discriminación y la igualdad), restricciones normativas (p. ej., RGPD, HIPAA) y privacidad en marcos legislativos y en la gestión del sistema sanitario<ul><li>Formalizar procesos y canales para mostrar cómo se utilizan y se accede a los datos, creando un sólido aparato de gobernanza de privacidad y seguridad</li><li>Introducir marcos legislativos basados en la ética y los derechos, incluidos grupos vulnerables</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Impulsar la IA del gobierno en la estrategia y hoja de ruta de salud e involucrar a las partes interesadas y expertos en el proceso",
+              "Que los organismos reguladores establezcan una normativa clara para el acceso al mercado y la validación clínica de soluciones basadas en IA, proporcionen directrices detalladas para las presentaciones basadas en IA y procedimientos de seguimiento rápido, y colaboren ampliamente con las partes interesadas externas para el intercambio de conocimientos",
+              "Promulgar sólidas protecciones de privacidad y seguridad y detallar las implicaciones de la IA en los derechos fundamentales",
+              "Promover marcos de políticas para la innovación abierta o conjunta en la IA para la salud y modelos de cooperación internacional para las políticas sobre la IA, la salud y la educación"
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Apoyar al gobierno en la creación de IA nacional en estrategias de salud a través de colaboraciones internacionales, colaboraciones público-privadas, grupos de trabajo y otras iniciativas",
+              "Trabajar con el Gobierno para fomentar derechos humanos consolidados y seguridad para la IA en la salud",
+              "Organizar o participar en foros para definir conjuntamente la IA para la gestión de datos y dar forma a iniciativas"
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Los socios del sector de la salud y la tecnología pueden trabajar con los gobiernos para abordar las lagunas mediante la transferencia de experiencia o de conocimientos para apoyar la IA como bien público",
+              "Trabajar estrechamente con los órganos reguladores para agilizar los procesos de revisión y las presentaciones de mercado Implementar flujos de trabajo y procesos claros para garantizar el respeto de los derechos humanos, el cumplimiento de las restricciones normativas y la promulgación de buenas prácticas"
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover un fuerte liderazgo para la IA en la salud de cara a lograr los objetivos de salud pública y de cobertura sanitaria universal",
+              "Establecer órganos de vigilancia para la gobernanza y el cumplimiento normativo en la IA en salud",
+              "Impulsar la adopción y la aplicación continua de los derechos fundamentales para la aplicación en el mundo real de la IA en la salud, así como para la investigación básica"
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Proporcionar expertos que puedan ayudar en la redacción y mejora continua de la estrategia nacional de la IA en la sanidad y la hoja de ruta de implementación",
+              "Las sociedades y academias médicas y tecnológicas cultivan el consenso y la validez en torno a la validación científica y clínica de las soluciones de IA",
+              "Hacer de los derechos y la privacidad la base de la estrategia de análisis y datos de las organizaciones sanitarias para cultivar la confianza"
+            ]
+          }
+        }
+      },
+      "designProcesses": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Integración del sistema sanitario y el flujo de trabajo<ul><li>Evaluar las necesidades y oportunidades para implementar soluciones de IA que puedan fortalecer los sistemas sanitarios, como la optimización de procesos operativos, un diagnóstico más preciso y rápido, u otras soluciones que puedan mejorar la calidad de la atención o reducir la carga de trabajo para los profesionales sanitarios</li><li>Establecer el elemento de “integración de lo humano” y la localización como práctica estándar para la IA en el desarrollo, la implementación y la mejora continua de soluciones sanitarias</li><li>Definir indicadores clave de resultados para supervisar y evaluar el escalonamiento de las soluciones de IA en diferentes niveles y casos de uso de salud y atención, y para realizar un seguimiento de los modelos de IA activos y no activos en todo el sistema sanitario, a la vez que cuantificar su impacto en los resultados de salud, eficiencias y otras métricas</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Abordar y actualizar continuamente las directrices ejecutivas sobre la integración de la IA en los procesos del sistema sanitario; colaborar con los líderes del sistema sanitario para definir las mejores prácticas, protocolos y flujos de trabajo",
+              "Apoyar iniciativas públicas enfocadas al diseño centrado en el ser humano en los datos y la atención sanitaria impulsada por la IA",
+              "Establecer una posición para el diseño centrado en el ser humano dentro de los ministerios de salud y TIC",
+              "Definir indicadores clave de resultados para supervisar el escalonamiento de las soluciones de IA y para realizar un seguimiento de los modelos activos e inactivos"
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Proporcionar experiencia en sistemas sanitarios, gobernanza o políticas a líderes y directores de sistemas sanitarios nacionales y locales",
+              "Desarrollar conjuntamente principios de IA centrados en el ser humano",
+              "Los grupos de pacientes deben intentar participar en el diseño de la IA para la salud"
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Trabajar estrechamente con organizaciones sanitarias para garantizar que la IA está diseñada para la integración adecuada en el sistema sanitario",
+              "Ofrecer soluciones integradas para el seguimiento de modelos y rendimiento compatibles con el sistema de información de salud",
+              "Fomentar la innovación centrada en el ser humano, p. ej., a través de una plataforma de innovación, un campus de innovación, o semana de la innovación"
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Establecer relaciones sólidas con las partes interesadas locales e incorporarlas al desarrollo comercial y al diseño de soluciones de los innovadores",
+              "Mostrar la prueba del impacto positivo de la IA en la salud y colaborar con las partes interesadas para ayudar a los sistemas sanitarios a integrar la IA"
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Colaborar activamente con innovadores, desarrolladores, grupos de pacientes y líderes del sector para ayudar a desarrolla soluciones de IA, agilizando así la adopción clínica/sanitaria; ayudar a las agencias gubernamentales a redactar directrices ejecutivas para la integración de la IA en sistemas sanitarios",
+              "Organizar o participar en iniciativas sobre el diseño centrado en el ser humano y destacar su importancia para el uso, el cumplimiento y los resultados de los pacientes",
+              "Construir e invertir en capacidades y competencias para realizar un seguimiento de los modelos de IA dentro de una organización sanitaria y para medir los resultados sanitarios u otros indicadores clave de resultados que alimentan un ciclo de revisión y mejora continuo"
+            ]
+          }
+        }
+      },
+      "partnershipStakeholders": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Los ministerios y los líderes del sector priorizan y apoyan la IA como una herramienta para mejorar la prestación de atención sanitaria y fortalecer los sistemas sanitarios",
+          "Las colaboraciones público-privadas se centran en el propósito público de mejorar la salud y coordinar los esfuerzos para evitar la fragmentación mientras se minimiza la complejidad y la burocracia de las operaciones de colaboración",
+          "Establecer una estructura marco para la innovación en organizaciones de cara a contrarrestar la fragmentación, como un parque o marco de innovación que esté alineado con las prioridades de salud pública y los intereses de los donantes Establezca también un foro para las discusiones y la coordinación de las partes interesadas."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Los ministerios apoyan formalmente al más alto nivel la priorización de las tecnologías de IA para mejorar la atención sanitaria y los sistemas sanitarios, y aportan recursos humanos, financieros, expertos y demás recursos relevantes.",
+              "Ofrecer un marco y/o plataforma centralizados, revisados y respaldados por el Gobierno para colaboraciones más eficaces.",
+              "Apoyar el establecimiento de un parque de innovación respaldado por el Gobierno."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Mostrar el impacto transformacional de la IA en el mundo real sobre los sistemas sanitarios y los resultados (cabildeo) para fomentar un fuerte apoyo político y de liderazgo.",
+              "Desarrollar informes detallados o directrices sobre estrategias de colaboración efectivas en la era de la IA y sobre un lugar de trabajo ágil.",
+              "Las ONGI, las organizaciones de pacientes y la sociedad civil participan en iniciativas en beneficio general de la salud a través de comisiones de expertos o ciencia ciudadana."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Los líderes de la industria y los innovadores promueven el papel de la IA en la atención sanitaria y participan en eventos públicos como conferencias o debates sobre innovación y tecnología.",
+              "Proporcionar una visión general centrada de los objetivos estratégicos y el papel general de las colaboraciones a fin de lograr mejores resultados sanitarios; participar en eventos y conferencias de innovación, así como en diversas colaboraciones público-privadas.",
+              "Apoyar iniciativas piloto y proporcionar asistencia (no financiera) para adaptarlas."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover los beneficios sociales y de salud positivos de los parques de innovación, los grandes desafíos y los grupos de investigación.",
+              "Actuar como catalizador para integrar soluciones de IA en la sanidad mediante la agrupación de diferentes partes interesadas y grupos de interés."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Establecer un papel formal para la participación de los socios, con subordinación directa a la dirección ejecutiva de las principales organizaciones sanitarias.",
+              "Colaborar directamente con agencias gubernamentales para destacar los mayores puntos débiles del sistema sanitario y el potencial de la IA para abordarlos, así como las experiencias y lecciones aprendidas.",
+              "Inscribirse solo en pilotos que superen una prueba básica de adaptabilidad y estrés."
+            ]
+          }
+        }
+      },
+      "businessModels": {
+        "title": "Recomendaciones generales para esta área",
+        "list": [
+          "Financiación<ul><li>Crear, simplificar y promover estructuras de incentivos para soluciones de IA que aborden las prioridades de salud pública o refuercen el sistema sanitario, como beneficios fiscales, inmunidad fiscal, subvenciones gubernamentales, beneficios no financieros y otras ventajas.</li><li>Incentivar modelos de negocio sostenibles para que la adaptación de la IA en productos y servicios sanitarios pueda apoyarse a través de inversiones nacionales y del sector privado.</li><li>Implementar un presupuesto ágil para el trabajo gubernamental relacionado con la IA en la sanidad.</li><li>Cultivar una red activa y amplia de donantes y financiadores que sea fácilmente accesible para innovadores y startups</li><li>Explorar el uso de mecanismos de financiación innovadores para iniciativas con impacto social como la IA en la sanidad. Esto puede aportar nuevas fuentes de capital a la IA y aumentar los incentivos para resultados sanitarios y la monitorización del impacto de la IA en las soluciones de salud.</li><li>Las instituciones de investigación y las universidades públicas deben colaborar para comercializar la investigación y los derechos de PI conferidos.</li><li>Desarrollar y apoyar estrategias de monetización sostenibles que estén en consonancia con las prioridades de salud pública y que cumplan igualmente con las normas de privacidad (p. ej., datos de consumibles, monetización de resultados y conocimientos, adaptación de capacidades y productos para licencias (externas), etc.)</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Establecer relaciones sólidas e incentivar las inversiones de donantes en la IA nacional en el sector de la innovación sanitaria.",
+              "Cofinanciar el establecimiento de un programa nacional o colaboraciones público-privadas de I+D e IA para la salud.",
+              "Introducir o apoyar una financiación innovadora para la IA en la salud, p. ej., vínculos de impacto social."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Financiar o conectar con donantes para IA en proyectos sanitarios que cumplan criterios como el impacto en el sistema sanitario, el resultado del paciente, la innovación y datos abiertos, etc.",
+              "Publicar artículos de liderazgo de pensamiento y/o directrices sobre prácticas de monetización de datos y análisis justas y que cumplan con las normas de privacidad."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Las startups, la industria y los donantes colaboran en modelos de negocio novedosos y sostenibles que aborden los retos de salud pública y globales.",
+              "Impulsar esfuerzos para adaptar los modelos de negocio con impacto social que hagan uso de la IA para la sanidad pública.",
+              "Los líderes del sector ofrecen grandes desafíos, premios y pagos en especie (p. ej., conocimiento experto) a innovadores emergentes."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Promover prácticas justas de monetización de datos y análisis que cumplan con las normas de privacidad.",
+              "Abordar las prioridades de salud pública e implementar las mejores prácticas para promover los derechos de los pacientes."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Llamamiento a la acción para grupos de partes interesadas",
+            "list": [
+              "Las organizaciones sanitarias conceden beneficios de acceso (p. ej., datos, acceso de pacientes, investigación, etc.) a la IA en desarrolladores sanitarios que sean susceptibles de tener un gran impacto positivo en la organización y el sistema sanitario.",
+              "Las organizaciones sanitarias participan en redes de organizaciones sanitarias y promueven la adopción basada en pruebas de soluciones con impactos positivos demostrados."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "email": {
+    "subject": "Test de desarrollo en salud con inteligencia artificial (IA) - Resultados",
+    "thankYou": "Felicitaciones, has completado el test de desarrollo en salud con inteligencia artificial",
+    "now": "Conserva este correo electrónico para volver a ver tus resultados en cualquier momento, comparte tus resultados con tus compañeros usando el enlace e invítalos a hacer el test!",
+    "see": "Ver mis resultados",
+    "copy": "O copie el enlace a continuación:",
+    "forgot": "¿Olvidaste descargar tus insignias?",
+    "comeBack": "Siempre puede volver a su página de resultados. <br /> Si comparte sus insignias en las redes sociales, le recomendamos que utilice los siguientes hashtags:",
+    "TermsOfUse": "Las recomendaciones aquí descritas fueron desarrolladas por la fundación Novartis y/o sus socios como parte del grupo de trabajo de la comisión de banda ancha sobre inteligencia artificial en salud; antes de la implementación local, las partes interesadas deben garantizar el cumplimiento de todas las leyes y regulaciones, incluidos los códigos de industria locales y las políticas institucionales. Los enlaces y el contenido pueden estar sujetos a cambio sin notificación alguna. Serán aplicados los <a href=\"https://www.yourdomain.com.org/terms-of-use\">términos de uso</a> de la fundación Novartis."
+  },
+  "footer": "Las recomendaciones aquí descritas fueron desarrolladas por la fundación Novartis y/o sus socios como parte del grupo de trabajo de la comisión de banda ancha sobre inteligencia artificial en salud; antes de la implementación local, las partes interesadas deben garantizar el cumplimiento de todas las leyes y regulaciones, incluidos los códigos de industria locales y las políticas institucionales. Los enlaces y el contenido pueden estar sujetos a cambio sin notificación alguna. Serán aplicados los <a href=\"https://www.yourdomain.com.org/terms-of-use\">términos de uso</a> de la fundación Novartis."
+}

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Install the quiz_session entity type
+ *
+ * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+ */
+function novartis_quiz_update_8001() {
+  \Drupal::entityTypeManager()->clearCachedDefinitions();
+  \Drupal::entityDefinitionUpdateManager()
+    ->installEntityType(\Drupal::entityTypeManager()->getDefinition('quiz_session'));
+}
+
+/**
+ * Install the area_result entity type
+ *
+ * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+ */
+function novartis_quiz_update_8002() {
+  \Drupal::entityTypeManager()->clearCachedDefinitions();
+  \Drupal::entityDefinitionUpdateManager()
+    ->installEntityType(\Drupal::entityTypeManager()->getDefinition('area_result'));
+}

@@ -1,0 +1,21 @@
+uuid: 42e79ee4-e6fb-4e86-b81c-b360061dea07
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: area.field_area_slug
+field_name: field_area_slug
+entity_type: area
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

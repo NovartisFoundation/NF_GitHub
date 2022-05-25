@@ -1,0 +1,11 @@
+uuid: 3c8b5dbd-1ae4-4df4-b35f-38781565e267
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: quiz_session.quiz_session
+target_entity_type_id: quiz_session
+target_bundle: quiz_session
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 02ecf016-34e4-43b7-aad9-5e0cf9fcb83e
+langcode: en
+status: true
+dependencies:
+  module:
+    - novartis_quiz
+id: area_result.area_result
+target_entity_type_id: area_result
+target_bundle: area_result
+default_langcode: site_default
+language_alterable: false

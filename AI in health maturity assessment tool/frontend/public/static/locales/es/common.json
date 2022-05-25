@@ -1,0 +1,77 @@
+{
+  "title": "Novartis Foundation",
+  "description": "",
+  "url": "https://yourdomain.com/es",
+
+  "areas": {
+    "peopleWorkforce": "Personal y empleados",
+    "dataTechnology": "Datos y tecnología",
+    "governanceRegulatory": "Gobernanza y reglamentación",
+    "designProcesses": "Diseño y procesos",
+    "partnershipStakeholders": "Colaboraciones y partes interesadas",
+    "businessModels": "Modelos de negocio"
+  },
+  "groups": {
+    "ministries": "Ministerios de finanzas, educación, salud y tecnología",
+    "ingosCivilSocietyImplementers": "ONGI, sociedad civil e implementadores",
+    "privateCompaniesStartups": "Empresas privadas y startups",
+    "advocacyGroups": "Grupos de defensa",
+    "healthOrganizations": "Organizaciones sanitarias"
+  },
+  "badge": {
+    "alt": "Insignias recogidas",
+    "levels": {
+      "1": "Fase de exploración",
+      "2": "Fase emergente",
+      "3": "Fase de líder"
+    }
+  },
+  "badgesCollection": {
+    "label": "Insignias recogidas :"
+  },
+  "buttonDownloadBadge": {
+    "label": "Descargar mi insignia en .jpg"
+  },
+  "languageSelector": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Portuguese"
+  },
+  "error": {
+    "default": {
+      "server": "Se produjo un error de {{statusCode}} en el servidor",
+      "client": "Ha ocurrido un error en el cliente"
+    },
+    "404": {
+      "title": "Página no encontrada (404)",
+      "description": "La URL solicitada no se encontró en este servidor.",
+      "button": "Vuelve a la página inicial"
+    },
+    "500": {
+      "title": "Error de servidor interno (500)",
+      "description": "Ocurrió un error en el servidor"
+    },
+    "IESupport": {
+      "title": "Navegador no compatible",
+      "description": "Parece que está utilizando una versión de navegador web que no admitimos. Asegúrese de estar utilizando la versión más reciente de su navegador o intente utilizar un navegador diferente para disfrutar plenamente de la experiencia del sitio web."
+    }
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "Actualmente estamos trabajando en el sitio web."
+  },
+  "formSelect": {
+    "noOptionsMessage": "Sin opcione"
+  },
+  "kidney": {
+    "defaultText": "Haga clic en un área para seleccionar u obtener más información."
+  },
+  "shareByLink": {
+    "buttons": {
+      "copyLink": "Copiar link",
+      "linkCopied": "¡Enlace copiado!"
+    }
+  },
+  "scrollTop": "Desplazarse hacia arriba"
+}

@@ -1,0 +1,385 @@
+{
+  "title": "Novartis Foundation | Report",
+  "description": "",
+  "url": "https://yourdomain.com/report",
+
+  "header": {
+    "heading": "Congratulations!",
+    "subtitle": "Congratulations!",
+    "title": "You have completed the whole assessment, here are your results",
+    "description": "See how you can improve :",
+    "shareButton": "Share the report"
+  },
+  "share": {
+    "title": "Share the report",
+    "form": {
+      "shareByLink": {
+        "label": "Share your results as a link"
+      },
+      "shareByEmail": {
+        "label": "Share your results via email",
+        "placeholder": "Your email",
+        "buttons": {
+          "send": "Send",
+          "loading": "Loading...",
+          "emailSent": "Email sent!"
+        },
+        "errors": {
+          "filedRequired": "This field is required.",
+          "emailSentError": "The email was not sent. We encounter an error on our side."
+        }
+      }
+    }
+  },
+  "scoreArea": {
+    "title": "Area score & investment",
+    "subtitle": "Area customisation",
+    "creditText": "Invest <strong>{{credits}}</strong> credits",
+    "investSwitch": {
+      "personal": "Try investing myself",
+      "auto": "Show me the best investment for impact"
+    },
+    "popup": {
+      "score": {
+        "title": "How would we invest for maximum impact?",
+        "text": [
+          "When you choose to invest, make sure you spread your effort across all areas.",
+          "It is only by investing evenly that you will reach the next level in AI in health maturity."
+        ]
+      },
+      "invest": {
+        "title": "Try investing",
+        "text": [
+          "To have a glimpse of what your impact could be if you decided to invest in each area, use the + and – buttons next to each area.",
+          " Make sure you spread your efforts across all areas. It is only by investing evenly that you will reach the next level in AI in health maturity."
+        ]
+      }
+    }
+  },
+  "chart": {
+    "label": "Initial score",
+    "score": "score",
+    "ideal": "Ideal maturity threshold"
+  },
+  "completionBadge": {
+    "title": "Badge of Completion",
+    "button": "Download my badge in.jpg"
+  },
+  "badges": {
+    "title": "My badges",
+    "button": "Download all my badges"
+  },
+  "recommandationArea": {
+    "title": "Area recommendations",
+    "strongest": "Strongest pillar",
+    "opportunity": "Opportunity pillar",
+    "modal": {
+      "peopleWorkforce": {
+        "title": "Overall recommendations for this area",
+        "list": [
+          "Strengthen national DSAI capabilities and integrate AI solutions in health<ul><li>Make DSAI a national priority throughout all levels of pre-service educational programmes and curricula, in health and beyond.</li><li>Introduce certified in-service training tailored to the needs of health professionals, health managers, and policymakers. Such training opportunitiesshould also aim to prevent fears of job loss. Introduce scholarship opportunities for data-driven health and care, targeting both health and engineering scholars, and potentially organised in dedicated CoEs or research institutes.</li><li>Develop a strategy to develop, attract, and retain talent in DSAI and monitor the national availability of DSAI skills regularly, potentially through an annual statistical index.</li><li>Implement measures to increase the digital literacy of the general population to support AI usage, particularly for youth and vulnerable groups.</li></ul>",
+          "Integrate AI solutions into health workflows through appropriate change management <ul><li>Draft guidance for effective roll out of AI-driven solutions and their integration in the health system workflows and processes through effective change management.</li></ul>",
+          "Human-centric design for AI in health <ul><li>Integrate agile methodologies and human-centric design as transversal methods into health system workflows and educational offerings.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Set priorities by focusing on the health system needs and weaknesses that can be addressed or improved with the help of AI. This priority list should be publicly available and revised annually.",
+              "Co-develop policies and regulations for AI in health, potentially with health system managers, hospitals, health professionals, engineers, civil society, and thought leaders.",
+              "Establish public engagement, support, and trust by creating dialogue mechanisms on the value of data for healthcare and the initiatives leveraging AI.",
+              "Create cross-organisational working groups dedicated to drafting the policies and regulations.",
+              "Organise strong pre- and in-service DSAI training and define a strategy to develop, attract, and retain talent.",
+              "Provide political support and funding for adequate talent and capacity distribution throughout the country."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Participate with the government and private sector in agenda setting, capacity building, and planning for strengthening DSAI talent and skills.",
+              "Support DSAI content development in national curricula and training programmes by seconding expertise or offering scholarships of interest.",
+              "Support health systems to integrate validated AI solutions and to strengthen DSAI service capabilities.",
+              "Engage in PPPs for further research, validation or translating new solutions or evidence into practice."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Complement public sector gaps, e.g., by providing subject matter experts to PPPs or by providing support for professional trainings.",
+              "Share industry best practices for technology adoption, data governance, and change management."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote basic human rights related to AI, such as the right to non-discrimination, equality, diversity, fairness, and more technical rights, such as data ownership for secondary uses of data.",
+              "Drive public education campaigns to illustrate the benefits and risks of AI in health (e.g., highlighting appropriate security and privacy measures to promote AI as a force for positive change, such as better health outcomes or more efficient health systems. Convene international working groups to share best practices and foster international collaboration."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Define health organisation needs and measures of success where AI can have the greatest impact based on current and future health needs.",
+              "Implement change management Best practices for technology adoption and operationalising of modified processes while also addressing health worker concerns through education and participation. Teaching hospitals should play an active role in providing continued education on data and AI- driven health and care.",
+              "Hire or train stewards on agile and human-centred design and empower them to optimise health operational workflows. Facilitate their participation in PPPs and public initiatives."
+            ]
+          }
+        }
+      },
+      "dataTechnology": {
+        "title": "Overall recommendations for this area Data Technology",
+        "list": [
+          "Define national goals for AI innovation to centre around priority health burdens and health system gaps. Execute the strategy – including a clear health data strategy, and deploy the resources to achieve these goals.<li>Resources should include physical components for AI (e.g., computer, networking hardware and facilities, connectivity), data science tools, platforms and network components, high data throughput, and ways to allow real-time access.</li><li>The data strategy has to foresee the necessary processes for digitisation and data integrity, training and validation sets, and test datasets.It should also promote open data standards, public datasets and security layers for data sharing and storage (onsite or cloud). Data sharing, data collaboratives, and data sharing framework agreements should be prioritised for public health needs while strictly safeguarding privacy (whether it concerns ad hoc sharing, framework agreements, or data collaboratives, data solidarity/altruism, or data marketplace ecosystems).</li><li>The data strategy should also promote good data governance, systematic data validation and advanced analytics across diverse health system applications.</li></ul>",
+          "Co-create and implement authoritative standards for interoperability (technical, structural, semantic, organisational) and draft consent-driven guidelines for their appropriate implementation in healthcare.",
+          "Draft legislation on security and privacy standards and implement best practices across the healthcare value chain."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Invest in appropriate infrastructure, such as robust connectivity and storage capabilities (onsite or cloud) for health data and their security layers.",
+              "Make non-sensitive data publicly available and sensitive data privacy compliant and securely accessible for accredited actors (e.g., for public health priorities and basic research), while promoting framework sharing agreements for streamlined innovation.",
+              "Draft legislation for interoperability standards and regulate explainability requirements while engaging broadly with the public to promote policies on ethical AI (e.g., patient organisations)."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote, fund, and engage in AI initiatives that implement open data standards, or participate in data collaboratives.",
+              "Foster public forum discussions on data strategies and stewardship, interoperability, privacy and ethics, and the importance of explainability in health.",
+              "Promote exchanges via international technology working groups and government-led efforts."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Lead efforts on AI for Good solutions.",
+              "Produce mature data consumption metrics and RWE, including federated learning opportunities and open-selected data repositories for public health benefits to illustrate AI’s positive impact on health outcomes and health system improvements.",
+              "Implement industry leading best practices for standards, interoperability, and explainability in alignment with public guidelines."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote open data standards and practices and put explainability and interoperability at the centre of good data and technology governance.",
+              "Advocate for strong privacy, security, and data protection.",
+              "Patient organizations to actively participate in policy discussions."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Collaborate with stake holders on robust security and privacy policy and implement strong security and privacy layers to cultivate public trust.",
+              "Define clear processes for patient identification, facilitate simple patient engagement and patient access to health information, and improve patient understanding of the benefits and risks of data and AI in health.",
+              "Build a comprehensive database and insights dashboard of patients with integrated clinical, social determinants and claims data."
+            ]
+          }
+        }
+      },
+      "governanceRegulatory": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Define a national implementation roadmap for progressing on the maturity curve for AI in health.<ul><li>This should include all relevant stakeholders, outline governance – including roles and responsibilities – and foster both government and private sector actions.</li></ul>",
+          "Develop clear policies, guidelines, and whitepapers to empower strong data and AI stewardship, establish accountability mechanisms, and champion data as a public health asset.<ul><li>These should include policies for continuous monitoring and auditing of AI in health solutions, as well as policies for IP and open innovation for AI in health.</li><li>Define clinical validation standards and policies for efficacy and safety of AI in health (for the intended use). Drive scientific validation through medical and technology academies, societies, and authoritative professional bodies.</li></ul>",
+          "Integrate fundamental rights (e.g., rights to non-discrimination and equality), regulatory restrictions (e.g., GDPR, HIPAA), and privacy into legislative frameworks and health system governance.<ul><li>Formalise processes and channels to show how data is used and accessed, building a strong privacy and security governance apparatus.</li><li>Introduce ethics and rights-based legislative frameworks, including for vulnerable groups.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Drive the government’s AI in health strategy and roadmap and involve stakeholders and experts in the process.",
+              "Have regulatory bodies establish clear regulation for market access and clinical validation of AI-based solutions, provide detailed guidelines for AI-based submissions and fast-track procedures, and collaborate broadly with external stakeholders for knowledge exchange.",
+              "Enact strong privacy and security protections and detail the implications of AI on fundamental rights.",
+              "Foster policy frameworks for open or co-innovation in AI for health, and international cooperation models for policies on AI, health, and education."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Support the government in creating national AI in health strategies through international collaborations, PPPs, working groups, and other initiatives.",
+              "Work with the government to foster strong human rights and security for AI in health.",
+              "Organise or participate in forums to co-define AI for data governance and shape initiatives."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Healthcare and technology industry partners can work with governments to address gaps with expertise or knowledge transfer to support AI as a public good.",
+              "Work closely with regulators to streamline review processes and market submissions. Implement clear workflows and processes to guarantee respect for human rights and compliance with regulatory restrictions and enactment of best practices."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote strong leadership for AI in health to achieve public health goals and UHC.",
+              "Establish watch dog bodies for governance and regulatory compliance in AI in health.",
+              "Push for the adoption and continuous enforcement of fundamental rights for the real-world application of AI in health as well as for basic research."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Provide experts who can aid in the drafting and continuous improvement of the national AI in health strategy and implementation roadmap.",
+              "Medical and technology societies and academies cultivate consensus and validity around scientific and clinical validation of AI solutions.",
+              "Make rights and privacy the basis of health organisations’ data and analytics strategy to cultivate trust."
+            ]
+          }
+        }
+      },
+      "designProcesses": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Health system and workflow integration<ul><li>Assess needs and opportunities for implementing AI solutions that can strengthen health systems, such as operational process optimisation, more accurate and faster diagnosis, or other solutions that can improve quality of care or reduce workload for health professionals.</li><li>Establish human-in-the-loop and localisation as standard practice for AI in health solution development, deployment, and continuous improvement.</li><li>Define KPIs for monitoring and assessing the scalability of AI solutions across different levels and use cases of health and care, and for tracking active and non-active AI models throughout the health system, while also quantifying their impact on health outcomes, efficiencies, and other metrics.</li></ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Draught and continuously update authoritative guidelines on integrating AI into health system processes; collaborate with health system leaders to define best practices, protocols, and workflows.",
+              "Support public initiatives that focus on human-centric design in data and AI-driven healthcare.",
+              "Establish a position for human-centric design within the ministries of health and ICT.",
+              "Define KPIs for monitoring the scalability of AI solutions and for tracking active and inactive models."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Provide health system, governance, or policy expertise to national and local health system leaders and managers.",
+              "Co-develop human-centric AI principles.",
+              "Patient groups to seek participation in design of AI for health."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Work closely with health organisations to ensure AI is designed for adequate health system integration.",
+              "Provide integrated solutions for model and performance tracking compatible with HIS.",
+              "Foster human-centric innovation, e.g., through an innovation platform, innovation campus, or innovation week."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Establish strong relationships with local stakeholders and incorporate them into innovators’ business development and solution design.",
+              "Showcase the evidence of AI’s positive impact on health and collaborate with stakeholders to help health systems integrate AI."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Actively collaborate with innovators, developers, patient groups, and industry leaders to help develop",
+              "AI solutions, thus streamlining clinical/healthcare adoption; assist government agencies in drafting authoritative guidelines for AI health system integration.",
+              "Organise or participate in initiatives on human-centred design and highlight its importance for patient usage, adherence, and outcomes.",
+              "Build and invest in capabilities and competencies to track AI models within a health organisation and to measure health outcomes or other KPIs that feed into a continuous review and improvement cycle."
+            ]
+          }
+        }
+      },
+      "partnershipStakeholders": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Ministries and industry leaders prioritise and support AI as a tool to improve health and care delivery and strengthen health systems.",
+          "PPPs focus on the public purpose of improving health, and coordinate efforts to avoid fragmentation while minimising the complexity and bureaucracy of partnership operations.",
+          "Establish an organisational innovation umbrella to counter fragmentation, such as an innovation park or framework that is aligned to public health priorities and donor interests. Also establish a forum for stakeholder discussions and coordination."
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Ministries at the highest level formally support prioritising AI technologies to improve healthcare and health systems, and provide relevant human, financial, expert, and other resources.",
+              "Offer a centralised, reviewed, and government-endorsed framework and/or platform for more effective partnerships.",
+              "Support the establishment of a government-supported innovation park."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Showcase the transformational real-world impact of AI on health systems and outcomes (lobbying) to foster strong political and leadership support.",
+              "Develop detailed reports or guidelines on effective partnership strategies in the age of AI and an agile workplace.",
+              "INGOs, patient organisations, and civil society participate in initiatives for overall health benefit through expert commissions or citizens’ science."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Industry leaders and innovators promote the role of AI in healthcare and engage in public events such as innovation and technology conferences or discussions.",
+              "Provide a focused overview of the strategic aims and general role of partnerships in achieving better health outcomes; participate in innovation events and conferences as well as PPPs.",
+              "Support pilot initiatives and provide (in-kind) assistance to scale them."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote the positive societal and health benefits of innovation parks, grand challenges, and research clusters.",
+              "Act as a catalyst for integrating AI solutions in health by pooling different stakeholders and interest groups."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Establish a formal role for partner engagement with direct reporting to executive leadership of major health organisations.",
+              "Collaborate directly with government agencies to highlight the largest health system pain points and AI’s potential to address these, as well as experiences and lessons learnt.",
+              "Enrol only in pilots that pass a basic test for scalability and stress."
+            ]
+          }
+        }
+      },
+      "businessModels": {
+        "title": "Actionable recommendations",
+        "list": [
+          "Funding<ul><li>Create, simplify, and promote incentive structures for AI solutions that address public health priorities or strengthen the health system, such as tax benefits, tax immunity, government grants, in-kind benefits, and other benefits.</li><li>Incentivise sustainable business models so the scaling of AI in health products and services can be supported through national and private sector investments.</li><li>Implement agile budgeting for government work related to AI in health. Cultivate an active and broad network of donors and funders that is easily accessible to innovators and startups.</li><li>Explore the use of innovative financing mechanisms for initiatives with social impact such as AI in health. This can bring new sources of capital to AI and increase incentives for health outcome and impact monitoring of AI in health solutions.</li><li>Public research institutions and universities should collaborate to commercialise research and vested IP rights. Develop and support sustainable monetisation strategies that are aligned with public health priorities and also privacy-compliant (e.g., consumable data, results and insight monetisation, scaling capabilities and products for (out-) licensing, etc.)</li><ul>"
+        ],
+        "groups": {
+          "ministries": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Establish strong relationships and incentivise donor investments in the national AI in health innovation sector.",
+              "Co-fund the establishment of a national AI for health R&D programme or PPP.",
+              "Introduce or support innovative financing for AI in health, e.g., social impact bonds."
+            ]
+          },
+          "ingosCivilSocietyImplementers": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Fund or connect with donors for AI in health projects that meet criteria such as health system impact, patient outcome, open innovation and data, etc.",
+              "Publish thought leadership and/ or guidelines on fair and privacy-compliant data and insight monetisation practices."
+            ]
+          },
+          "privateCompaniesStartups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Startups, industry, and donors collaborate on novel and sustainable business models addressing public health and global health challenges.",
+              "Drive efforts to scale social impact business models that leverage AI for public health.",
+              "Industry leaders offer grand challenges, prizes, in-kind payments (e.g., expertise) to up-and-coming innovators."
+            ]
+          },
+          "advocacyGroups": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Promote fair and privacy-compliant data and insight monetisation practices.",
+              "Address public health priorities and implement best practices for promoting patients’ rights."
+            ]
+          },
+          "healthOrganizations": {
+            "title": "Call to action for stakeholder groups",
+            "list": [
+              "Health organisations grant access benefits (e.g., data, patient access, research, etc.) to AI in health developers that are likely to have a large, positive impact on the organisation and health system.",
+              "Health organisations participate in health organisation networks and promote evidence-based adoption of solutions with proven positive impacts."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "email": {
+    "subject": "AI in Health Maturity assessment – Your Results",
+    "thankYou": "Congratulations for completing the AI in health maturity assessment!",
+    "now": "Keep this email to come back to your results at any time. Share your results with a colleague or a partner using the link below and invite them to also take the assessment.",
+    "see": "See my results",
+    "copy": "Or copy the link below:",
+    "forgot": "Forgot to download your badges?",
+    "comeBack": "You can always come back to your result page.<br />If you share your badges on Social Media, we would recommend you use the following hashtags :",
+    "TermsOfUse": "Recommendations described herein were developed by the Novartis Foundation and/or its partners as part of the Broadband Commission Working Group on AI in Health; before local implementation, interested parties must ensure compliance with all applicable laws and regulations, including local industry codes and institutional policies. Links and content may be subject to change without notification. The <a href=\"https://www.yourdomain.com.org/terms-of-use\">Terms of Use</a> of the Novartis Foundation apply."
+  },
+  "footer": "Recommendations described herein were developed by the Novartis Foundation and/or its partners as part of the Broadband Commission Working Group on AI in Health; before local implementation, interested parties must ensure compliance with all applicable laws and regulations, including local industry codes and institutional policies. Links and content may be subject to change without notification. The <a href=\"https://www.yourdomain.com.org/terms-of-use\">Terms of Use</a> of the Novartis Foundation apply."
+}

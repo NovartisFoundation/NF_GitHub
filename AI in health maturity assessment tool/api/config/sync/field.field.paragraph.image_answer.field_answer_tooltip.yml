@@ -1,0 +1,19 @@
+uuid: a932ee60-e040-4a08-b0bc-a61812a2b10b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer_tooltip
+    - paragraphs.paragraphs_type.image_answer
+id: paragraph.image_answer.field_answer_tooltip
+field_name: field_answer_tooltip
+entity_type: paragraph
+bundle: image_answer
+label: Tooltip
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

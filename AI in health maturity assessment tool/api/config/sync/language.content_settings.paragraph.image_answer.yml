@@ -1,0 +1,18 @@
+uuid: 9c4f90cb-a614-49b8-b194-4527a94fee0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_answer
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.image_answer
+target_entity_type_id: paragraph
+target_bundle: image_answer
+default_langcode: site_default
+language_alterable: true
